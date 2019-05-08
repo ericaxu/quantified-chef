@@ -56,7 +56,9 @@ function render_dishes() {
             create_el('span', dish_header_el, 'dish-english-name', dish.english_name || '');
             create_el('span', dish_header_el, 'dish-chinese-name', dish.chinese_name || '');
 
-            let image_el = create_el('img', dish_el, 'dish-image');
+            let image_container_el = create_el('div', dish_el, 'dish-image-container');
+            create_el('div', image_container_el, 'dish-image-overlay');
+            let image_el = create_el('img', image_container_el, 'dish-image');
 
             if (dish.image) {
                 image_el.setAttribute('src', dish.image);
