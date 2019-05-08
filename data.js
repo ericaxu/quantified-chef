@@ -21,5 +21,9 @@ let categories = {
     'traditional_chinese': {
         english_name: 'Traditional Chinese',
         chinese_name: '传统中餐'
+    },
+    'french': {
+        english_name: 'French',
+        chinese_name: '法餐'
     }
 };
