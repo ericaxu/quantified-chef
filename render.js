@@ -61,6 +61,10 @@ function render_dishes() {
             else {
                 image_el.setAttribute('src', 'placeholder.png');
             }
+
+            if (!dish.date) {
+                image_el.className += ' mod-not-completed';
+            }
         }
         else {
             console.error('Cannot find category: ' + category_id);

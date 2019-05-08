@@ -16,3 +16,7 @@ body {
     max-width: 300px;
     height: auto;
 }
+
+.dish-image.mod-not-completed {
+    opacity: 0.5;
+}
