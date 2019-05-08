@@ -37,6 +37,9 @@ function render_categories(container) {
 }
 
 function render_dishes() {
+    let dish_count = 0;
+    let last_updated_ts = 0;
+
     for (let dish of dishes) {
         let category_id = dish.category;
 
@@ -65,10 +68,21 @@ function render_dishes() {
             if (!dish.date) {
                 image_el.className += ' mod-not-completed';
             }
+            else {
+                let date = new Date(dish.date + ' EST');
+                if (date.getTime() > last_updated_ts) {
+                    last_updated_ts = date.getTime();
+                }
+            }
+
+            dish_count += 1;
         }
         else {
             console.error('Cannot find category: ' + category_id);
         }
 
     }
+
+    document.querySelector('.last-updated-date').textContent = new Date(last_updated_ts).toLocaleDateString();
+    document.querySelector('.completed-dishes-num').textContent = dish_count;
 }
