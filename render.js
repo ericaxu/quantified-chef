@@ -57,7 +57,6 @@ function render_dishes() {
             create_el('span', dish_header_el, 'dish-chinese-name', dish.chinese_name || '');
 
             let image_container_el = create_el('div', dish_el, 'dish-image-container');
-            create_el('div', image_container_el, 'dish-image-overlay');
             let image_el = create_el('img', image_container_el, 'dish-image');
 
             if (dish.image) {
@@ -75,6 +74,16 @@ function render_dishes() {
                 if (date.getTime() > last_updated_ts) {
                     last_updated_ts = date.getTime();
                 }
+
+                create_el('div', dish_el, 'dish-made-time', date.toLocaleDateString());
+            }
+
+            if (dish.english_notes) {
+                create_el('div', dish_el, 'dish-english-notes', dish.english_notes);
+            }
+            
+            if (dish.chinese_notes) {
+                create_el('div', dish_el, 'dish-chinese-notes', dish.chinese_notes);
             }
 
             dish_count += 1;
