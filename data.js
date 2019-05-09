@@ -70,8 +70,8 @@ let dishes = [
         english_name: 'Golden creamy shrimp balls',
         chinese_name: '金沙虾球',
         category: 'chinese',
-        date: '2018-09-13',
-        image: 'https://i.imgur.com/XC4ZMzv.jpg'
+        date: '2018-04-06',
+        image: 'https://i.imgur.com/68gt4hA.jpg'
     },
    
 ];

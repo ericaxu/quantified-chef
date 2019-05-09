@@ -16,20 +16,27 @@
     <div class="subheading">the Quantified Chef: Erica</div>
     <div class="heading-stats">
         <span class="heading-stat">Last upudated: <span class="heading-stat-value last-updated-date"></span></span>
-        <span class="heading-stat">Completed dishes: <span class="heading-stat-value completed-dishes-num"></span></span>
+        <span class="heading-stat">Completed dishes: <span
+                class="heading-stat-value completed-dishes-num"></span></span>
         <span class="heading-stat">Dishes to make: <span class="heading-stat-value dishes-to-make-num"></span></span>
     </div>
 
     <div class="main-container"></div>
 
-    <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript" src="render.js"></script>
     <script>
-        let main_container_el = document.querySelector('.main-container');
+        let data_js = document.createElement('script');
+        data_js.type = 'text/javascript';
+        data_js.setAttribute('src', 'data.js?ts=' + Date.now());
 
-        render_categories(main_container_el);
-        render_dishes();
+        data_js.onload = () => {
+            let main_container_el = document.querySelector('.main-container');
 
+            render_categories(main_container_el);
+            render_dishes();
+        };
+
+        document.getElementsByTagName('body')[0].prepend(data_js);
     </script>
 </body>
 
