@@ -9,11 +9,20 @@ let dishes = [
         image: 'https://i.imgur.com/Ee47sMk.jpg'
     },
     {
-        english_name: 'Test',
-        chinese_name: '测试',
-        english_notes: 'None',
-        chinese_notes: '无',
-        category: 'traditional_chinese'
+        english_name: 'Eggs benedict',
+        chinese_name: '班尼迪克蛋',
+        english_notes: "Homemade hollandaise sauce, store bought English muffins. I love smoked salmon so I'm using that as the protein.",
+        category: 'american_breakfast',
+        date: '2018-11-08',
+        image: 'https://i.imgur.com/7ks5csx.jpg'
+    },
+    {
+        english_name: 'Chiffon cake',
+        chinese_name: '戚风蛋糕',
+        category: 'amercian_pastry',
+        english_notes: 'Made this plenty of times. Great as the base of a birthday cake too.',
+        date: '2018-10-17',
+        image: 'https://i.imgur.com/pLiXta1.jpg'
     }
 ];
 
@@ -22,8 +31,12 @@ let categories = {
         english_name: 'Chinese Bakery',
         chinese_name: '中餐烘焙'
     },
-    'french': {
-        english_name: 'French',
-        chinese_name: '法餐'
+    'american_breakfast': {
+        english_name: 'Amercian Breakfast',
+        chinese_name: '美式早餐'
+    },
+    'amercian_pastry': {
+        english_name: 'Amercian Pastry',
+        chinese_name: '美式烘焙'
     }
 };

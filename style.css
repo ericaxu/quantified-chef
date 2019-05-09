@@ -70,6 +70,7 @@ h1 {
 .main-container {
     display: flex;
     margin: 0 10%;
+    flex-wrap: wrap;
 }
 
 .category {
