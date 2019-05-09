@@ -23,6 +23,12 @@ let dishes = [
         english_notes: 'Made this plenty of times. Great as the base of a birthday cake too.',
         date: '2018-10-17',
         image: 'https://i.imgur.com/pLiXta1.jpg'
+    },
+    {
+        english_name: 'Blueberry pancake',
+        chinese_name: '蓝莓松饼',
+        category: 'american_breakfast',
+        image: 'https://images.media-allrecipes.com/userphotos/250x250/686460.jpg'
     }
 ];
 

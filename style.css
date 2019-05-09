@@ -68,14 +68,13 @@ h1 {
 }
 
 .main-container {
-    display: flex;
     margin: 0 10%;
-    flex-wrap: wrap;
+    columns: auto 400px;
+    column-gap: 30px;
 }
 
 .category {
-    flex: 0 0 400px;
-    margin: 10px 20px;
+    break-inside: avoid;
 }
 
 .category-header {
@@ -103,6 +102,7 @@ h1 {
     padding: 20px 30px;
     border: 6px solid #222;
     border-radius: 3px;
+    margin-bottom: 30px;
 }
 
 .dish-english-name, .dish-chinese-name {
@@ -113,6 +113,7 @@ h1 {
 
 .dish-image-container {
     margin-top: 10px;
+    text-align: center;
 }
 
 .dish-made-time {
@@ -137,5 +138,6 @@ h1 {
 }
 
 .dish-image.mod-not-completed {
-    opacity: 0.5;
+    opacity: 0.3;
+    position: relative;
 }
