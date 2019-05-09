@@ -35,7 +35,7 @@ let dishes = [
 let categories = {
     'chinese_pastry': {
         english_name: 'Chinese Bakery',
-        chinese_name: '中餐烘焙'
+        chinese_name: '中式烘焙'
     },
     'american_breakfast': {
         english_name: 'Amercian Breakfast',

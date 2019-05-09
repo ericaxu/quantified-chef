@@ -97,6 +97,19 @@ h1 {
     padding-left: 16px;
 }
 
+.category-progress {
+    height: 6px;
+    width: 100%;
+    background-color: #333;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+.category-progress-inner {
+    background-color: rgba(212, 175, 55, 0.5);
+    height: 100%;
+}
+
 .dish {
     background-color: #040404;
     padding: 20px 30px;
@@ -127,6 +140,8 @@ h1 {
 .dish-image {
     max-width: 100%;
     height: auto;
+    border: 2px solid rgba(212, 175, 55, 0.75);
+    border-radius: 2px;
 }
 
 .dish-english-notes, .dish-chinese-notes {
@@ -137,7 +152,13 @@ h1 {
     margin-top: 10px;
 }
 
-.dish-image.mod-not-completed {
-    opacity: 0.3;
-    position: relative;
+.dish.mod-not-completed {
+    background-color: #222;
+    color: #999;
+    border: 6px dashed #444;
+    opacity: 0.5;
+}
+
+.dish.mod-not-completed .dish-image {
+    opacity: 0.5;
 }

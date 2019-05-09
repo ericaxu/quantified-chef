@@ -32,6 +32,11 @@ function render_categories(container) {
         create_el('span', category_header_el, 'category-english-name', category_data.english_name || '');
         create_el('span', category_header_el, 'category-chinese-name', category_data.chinese_name || '');
 
+        let progress_el = create_el('div', category_header_el, 'category-progress');
+        progress_el.setAttribute('data-all', '0');
+        progress_el.setAttribute('data-made', '0');
+        create_el('div', progress_el, 'category-progress-inner');
+
         create_el('div', category_el, 'category-dishes-container');
     }
 }
@@ -66,10 +71,14 @@ function render_dishes() {
                 image_el.setAttribute('src', 'placeholder.png');
             }
 
+            let progress_el = document.querySelector(`.category[data-id="${category_id}"] .category-progress`);
+            progress_el.setAttribute('data-all', (parseInt(progress_el.getAttribute('data-all')) + 1).toString());
+
             if (!dish.date) {
-                image_el.className += ' mod-not-completed';
+                dish_el.className += ' mod-not-completed';
             }
             else {
+                progress_el.setAttribute('data-made', (parseInt(progress_el.getAttribute('data-made')) + 1).toString());
                 let date = new Date(dish.date + ' EST');
                 if (date.getTime() > last_updated_ts) {
                     last_updated_ts = date.getTime();
@@ -81,10 +90,17 @@ function render_dishes() {
             if (dish.english_notes) {
                 create_el('div', dish_el, 'dish-english-notes', dish.english_notes);
             }
-            
+
             if (dish.chinese_notes) {
                 create_el('div', dish_el, 'dish-chinese-notes', dish.chinese_notes);
             }
+
+            let all_dishes_count = parseInt(progress_el.getAttribute('data-all'));
+            let made_dishes_count = parseInt(progress_el.getAttribute('data-made'));
+            let percentage = ((made_dishes_count / all_dishes_count) * 100).toString() + '%';
+            progress_el.setAttribute('title', percentage + ' done');
+
+            progress_el.querySelector('.category-progress-inner').style.width = percentage;
 
             dish_count += 1;
         }
