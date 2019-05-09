@@ -87,7 +87,7 @@ function render_dishes() {
                     last_updated_ts = date.getTime();
                 }
 
-                create_el('div', dish_el, 'dish-made-time', date.toLocaleDateString());
+                create_el('div', dish_el, 'dish-made-date', date.toLocaleDateString());
             }
 
             if (dish.english_notes) {
