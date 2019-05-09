@@ -42,7 +42,8 @@ function render_categories(container) {
 }
 
 function render_dishes() {
-    let dish_count = 0;
+    let dishes_made_count = 0;
+    let dishes_to_make_count = 0;
     let last_updated_ts = 0;
 
     for (let dish of dishes) {
@@ -75,9 +76,11 @@ function render_dishes() {
             progress_el.setAttribute('data-all', (parseInt(progress_el.getAttribute('data-all')) + 1).toString());
 
             if (!dish.date) {
+                dishes_to_make_count += 1;
                 dish_el.className += ' mod-not-completed';
             }
             else {
+                dishes_made_count += 1;
                 progress_el.setAttribute('data-made', (parseInt(progress_el.getAttribute('data-made')) + 1).toString());
                 let date = new Date(dish.date + ' EST');
                 if (date.getTime() > last_updated_ts) {
@@ -101,8 +104,6 @@ function render_dishes() {
             progress_el.setAttribute('title', percentage + ' done');
 
             progress_el.querySelector('.category-progress-inner').style.width = percentage;
-
-            dish_count += 1;
         }
         else {
             console.error('Cannot find category: ' + category_id);
@@ -111,5 +112,6 @@ function render_dishes() {
     }
 
     document.querySelector('.last-updated-date').textContent = new Date(last_updated_ts).toLocaleDateString();
-    document.querySelector('.completed-dishes-num').textContent = dish_count;
+    document.querySelector('.completed-dishes-num').textContent = dishes_made_count;
+    document.querySelector('.dishes-to-make-num').textContent = dishes_to_make_count;
 }
