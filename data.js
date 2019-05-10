@@ -120,6 +120,14 @@ let dishes = [
         date: '2018-09-17',
         image: 'https://i.imgur.com/HrRODYg.jpg'
     },
+    {
+        english_name: 'Pan-seared shrimp with chorizo and corn',
+        chinese_name: '乔利佐玉米煎虾',
+        category: 'american',
+        english_note: 'Followed a Bon Appétit recipe. Replaced scallops with shrimp, but should try the original one day.',
+        date: '2018-10-05',
+        image: 'https://i.imgur.com/0itUUWn.jpg'
+    }
 ];
 
 let categories = {
