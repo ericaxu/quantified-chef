@@ -48,6 +48,7 @@ let dishes = [
         english_name: 'Mooncake',
         chinese_name: '广式月饼',
         category: 'chinese_pastry',
+        english_notes: "With cantaloupe filling. After cooking down the filling, it tastes like sweet potato to me somehow.",
         chinese_notes: '哈密瓜馅，却尝起来像红薯馅，也许商店里卖的是用香精做成的吧！',
         date: '2018-09-21',
         image: 'https://i.imgur.com/bvEMrzN.jpg'
@@ -73,13 +74,66 @@ let dishes = [
         date: '2018-04-06',
         image: 'https://i.imgur.com/68gt4hA.jpg'
     },
-   
+    {
+        english_name: 'Sweet corn with toasted pine nuts',
+        chinese_name: '松仁玉米',
+        category: 'chinese',
+        date: '2019-05-06',
+        english_notes: "It looks better in dark plates. Be sure to toast the pine nuts until it's a little bit oily and shiny.",
+        image: 'https://i.imgur.com/GmyWO3J.jpg'
+    },
+    {
+        english_name: 'Fried mashed potato balls',
+        chinese_name: '炸土豆泥球',
+        category: 'american',
+        date: '2019-05-06',
+        english_notes: "A good way to use up mashed potato when you make too much.",
+        image: 'https://i.imgur.com/WcdxXvU.jpg'
+    },
+    {
+        english_name: 'Water spinach stir-fry with garlic',
+        chinese_name: '清炒空心菜',
+        category: 'chinese_comfort',
+        date: '2018-09-13',
+        chinese_notes: '空心菜的特殊香气总是让我念念不忘。一定要把老的根部纤维去掉，不然会咬不动。',
+        image: 'https://i.imgur.com/RNJcYwP.jpg'
+    },
+    {
+        english_name: 'Fried haddock fillet',
+        chinese_name: '炸黑线鳕片',
+        category: 'american',
+        date: '2018-09-13',
+        image: 'https://i.imgur.com/X6Wj0al.jpg'
+    },
+    {
+        english_name: 'Steamed chicken with chili sauce',
+        chinese_name: '口水鸡',
+        category: 'chinese',
+        date: '2018-09-23',
+        image: 'https://i.imgur.com/SMnJVNy.jpg'
+    },
+    {
+        english_name: 'Braised eggplant with potato and bell pepper',
+        chinese_name: '地三鲜',
+        category: 'chinese',
+        english_note: 'A North-eastern Chinese classic. Very savory.',
+        date: '2018-09-17',
+        image: 'https://i.imgur.com/HrRODYg.jpg'
+    },
 ];
 
 let categories = {
+    'chinese': {
+        english_name: 'Chinese',
+        chinese_name: '中餐'
+    },
     'chinese_pastry': {
         english_name: 'Chinese Bakery',
         chinese_name: '中式烘焙'
+    },
+    'american': {
+        english_name: 'American',
+        chinese_name: '美式'
     },
     'american_breakfast': {
         english_name: 'Amercian Breakfast',
@@ -88,10 +142,6 @@ let categories = {
     'amercian_pastry': {
         english_name: 'Amercian Pastry',
         chinese_name: '美式烘焙'
-    },
-    'chinese': {
-        english_name: 'Chinese',
-        chinese_name: '中餐'
     },
     'thai': {
         english_name: 'Thai',
