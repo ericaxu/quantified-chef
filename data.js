@@ -116,7 +116,7 @@ let dishes = [
         english_name: 'Braised eggplant with potato and bell pepper',
         chinese_name: '地三鲜',
         category: 'chinese',
-        english_note: 'A North-eastern Chinese classic. Very savory.',
+        english_notes: 'A North-eastern Chinese classic. Very savory.',
         date: '2018-09-17',
         image: 'https://i.imgur.com/HrRODYg.jpg'
     },
@@ -124,9 +124,32 @@ let dishes = [
         english_name: 'Pan-seared shrimp with chorizo and corn',
         chinese_name: '乔利佐玉米煎虾',
         category: 'american',
-        english_note: 'Followed a Bon Appétit recipe. Replaced scallops with shrimp, but should try the original one day.',
+        english_notes: 'Followed a Bon Appétit recipe. Replaced scallops with shrimp, but should try the original one day.',
         date: '2018-10-05',
         image: 'https://i.imgur.com/0itUUWn.jpg'
+    },
+    {
+        english_name: 'Yuxiang shredded pork',
+        chinese_name: '鱼香肉丝',
+        category: 'chinese',
+        date: '2019-04-30',
+        image: 'https://i.imgur.com/7Fn5Wrf.jpg'
+    },
+    {
+        english_name: 'Braised shiitake mushroom with bok choy',
+        chinese_name: '浓汤香菇青菜',
+        category: 'chinese_comfort',
+        english_notes: 'They are braised in rich chicken stock, which is reduced and emulsified chicken stock.',
+        date: '2019-05-08',
+        image: 'https://i.imgur.com/mdokPb8.jpg'
+    },
+    {
+        english_name: 'Taiwanese fried chicken',
+        chinese_name: '盐酥鸡',
+        category: 'chinese',
+        english_notes: 'Use coarse sweet potato starch for the unique texture.',
+        date: '2019-04-18',
+        image: 'https://i.imgur.com/iTbB3t2.jpg'
     }
 ];
 
