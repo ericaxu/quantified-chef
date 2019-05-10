@@ -1,3 +1,5 @@
+let lightbox = window.SimpleLightbox;
+
 function create_el(tag, parent, class_name, text) {
     if (!tag) {
         return;
@@ -67,6 +69,11 @@ function render_dishes() {
 
             if (dish.image) {
                 image_el.setAttribute('src', dish.image);
+                image_el.onclick  = function() {
+                    SimpleLightbox.open({
+                        items: [dish.image]
+                    });
+                }
             }
             else {
                 image_el.setAttribute('src', 'placeholder.png');

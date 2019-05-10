@@ -144,6 +144,7 @@ h1 {
     height: auto;
     border: 2px solid rgba(212, 175, 55, 0.75);
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .dish-english-notes, .dish-chinese-notes {
