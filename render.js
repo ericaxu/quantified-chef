@@ -128,7 +128,7 @@ function render_dishes(container_el) {
             let percentage = ((made_dishes_count / all_dishes_count) * 100).toString() + '%';
 
             for (let el of [...existing_progress_els, progress_el]) {
-                el.setAttribute('title', percentage + ' done');
+                el.setAttribute('title', `${made_dishes_count}/${all_dishes_count}, ${percentage} done`);
                 el.querySelector('.category-progress-inner').style.width = percentage;
             }
 
