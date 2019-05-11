@@ -64,7 +64,20 @@ h1 {
 }
 
 .heading-stat {
-    margin: 0 10px;
+    margin: 0 10px 0 14px;
+    position: relative;
+}
+
+.heading-stat:not(:first-child):before {
+    content: '᛫';
+    position: absolute;
+    left: -15px;
+    top: 0;
+}
+
+.heading-stat-value {
+    color: #d4af37;
+    font-weight: bold;
 }
 
 .main-container {

@@ -150,6 +150,15 @@ let dishes = [
         english_notes: 'Use coarse sweet potato starch for the unique texture.',
         date: '2019-04-18',
         image: 'https://i.imgur.com/iTbB3t2.jpg'
+    },
+    {
+        english_name: 'Pan-fried shrimp in mushroom sauce',
+        chinese: '蘑菇浓汁浇虾',
+        category: 'original',
+        english_notes: 'Use shrimp shells to make a quick stock with butter, braise finely diced white mushroom in it, season with soy sauce and a bit of oyster sauce. Coat the shrimp in a slightly spicy coating, and eat it with the creamy, savory mushroom sauce.',
+        chinese_notes: '重点是用虾壳熬制高汤，再煮切得极小的蘑菇丁。虾仁裹上香辣的脆壳，沾着绵软的蘑菇浓汁一起入口。',
+        date: '2013-08-02',
+        image: 'https://i.imgur.com/vXU7aqi.jpg'
     }
 ];
 
@@ -181,5 +190,9 @@ let categories = {
     'chinese_comfort': {
         english_name: 'Chinese Comfort Food',
         chinese_name: '中式家常菜'
+    },
+    'original': {
+        english_name: 'Original',
+        chinese_name: '原创'
     }
 };
