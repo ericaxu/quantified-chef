@@ -247,6 +247,27 @@ let dishes = [
         category: 'chinese_comfort',
         date: '2018-10-17',
         image: 'https://i.imgur.com/Xf0cHpA.jpg'
+    },
+    {
+        english_name: 'Tim Hortons style iced cappuccino',
+        chinese_name: '冰卡布奇诺',
+        category: 'desert',
+        date: '2019-05-10',
+        image: 'https://i.imgur.com/WimUPGo.jpg'
+    },
+    {
+        english_name: 'Nikuman',
+        chinese_name: '肉包',
+        category: 'chinese',
+        date: '2016-01-27',
+        image: 'https://i.imgur.com/dA3G6F2.jpg'
+    },
+    {
+        english_name: 'Real-deal instant beef noodles',
+        chinese_name: '豪华版红烧牛肉面',
+        category: 'original',
+        date: '2016-03-23',
+        image: 'https://i.imgur.com/fjQXEdC.jpg'
     }
 ];
 
@@ -286,5 +307,9 @@ let categories = {
     'original': {
         english_name: 'Original',
         chinese_name: '原创'
+    },
+    'desert': {
+        english_name: 'Drink & Desert',
+        chinese_name: '饮料 & 甜品'
     }
 };
