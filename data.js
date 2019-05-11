@@ -166,6 +166,13 @@ let dishes = [
         category: 'korean',
         date: '2013-11-25',
         image: 'https://i.imgur.com/fWXMOEU.jpg'
+    },
+    {
+        english_name: 'Yogurt cheesecake',
+        chinese: '冻酸奶芝士蛋糕',
+        category: 'amercian_pastry',
+        date: '2014-05-17',
+        image: 'https://i.imgur.com/r4r7rFa.jpg'
     }
 ];
 
@@ -175,7 +182,7 @@ let categories = {
         chinese_name: '中餐'
     },
     'chinese_pastry': {
-        english_name: 'Chinese Bakery',
+        english_name: 'Chinese Pastry',
         chinese_name: '中式烘焙'
     },
     'american': {

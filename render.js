@@ -1,4 +1,5 @@
 let lightbox = window.SimpleLightbox;
+let new_dishes = [];
 
 function create_el(tag, parent, class_name, text) {
     if (!tag) {
@@ -20,6 +21,20 @@ function create_el(tag, parent, class_name, text) {
     }
 
     return new_element;
+}
+
+function sort_dishes() {
+    new_dishes = [];
+
+    for (let category in categories) {
+        for (let dish of dishes) {
+            if (dish.category === category) {
+                new_dishes.push(dish);
+            }
+        }
+    }
+
+    dishes = new_dishes;
 }
 
 function render_dishes(container_el) {

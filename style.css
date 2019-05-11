@@ -82,7 +82,7 @@ h1 {
 
 .main-container {
     margin: 0 10%;
-    columns: auto 350px;
+    columns: 350px auto;
     column-gap: 40px;
 }
 
