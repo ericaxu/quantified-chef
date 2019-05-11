@@ -6,7 +6,7 @@ let dishes = [
         chinese_notes: '个人最喜欢台式的酥松肉松，效果比较好。面包一定要趁热卷哦。',
         category: 'chinese_pastry',
         date: '2018-10-23',
-        image: 'https://i.imgur.com/Ee47sMk.jpg'
+        image: 'https://i.imgur.com/LG82nky.jpg'
     },
     {
         english_name: 'Eggs benedict',
@@ -19,7 +19,7 @@ let dishes = [
     {
         english_name: 'Chiffon cake',
         chinese_name: '戚风蛋糕',
-        category: 'amercian_pastry',
+        category: 'american_pastry',
         english_notes: 'Made this plenty of times. Great as the base of a birthday cake too.',
         date: '2018-10-17',
         image: 'https://i.imgur.com/pLiXta1.jpg'
@@ -170,9 +170,37 @@ let dishes = [
     {
         english_name: 'Yogurt cheesecake',
         chinese: '冻酸奶芝士蛋糕',
-        category: 'amercian_pastry',
+        category: 'american_pastry',
         date: '2014-05-17',
         image: 'https://i.imgur.com/r4r7rFa.jpg'
+    },
+    {
+        english_name: 'Fried spring rolls',
+        chinese_name: '炸春卷',
+        category: 'chinese',
+        date: '2014-05-25',
+        image: 'https://i.imgur.com/iLPbhxl.jpg'
+    },
+    {
+        english_name: 'Chicken under a brick',
+        chinese_name: '为搬砖而折腰的鸡',
+        category: 'american',
+        date: '2018-11-07',
+        image: 'https://i.imgur.com/m43HYQX.jpg'
+    },
+    {
+        english_name: 'Portuguese egg tart',
+        chinese_name: '葡式蛋挞',
+        category: 'american_pastry',
+        date: '2016-06-18',
+        image: 'https://i.imgur.com/yvOUcX1.jpg'
+    },
+    {
+        english_name: 'Chinese walnut cookie',
+        chinese_name: '宫廷桃酥',
+        category: 'chinese_pastry',
+        date: '2014-07-13',
+        image: ''
     }
 ];
 
@@ -193,7 +221,7 @@ let categories = {
         english_name: 'Amercian Breakfast',
         chinese_name: '美式早餐'
     },
-    'amercian_pastry': {
+    'american_pastry': {
         english_name: 'Amercian Pastry',
         chinese_name: '美式烘焙'
     },
