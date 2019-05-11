@@ -82,13 +82,8 @@ h1 {
 
 .main-container {
     margin: 0 10%;
-    columns: auto 400px;
-    column-gap: 30px;
-}
-
-.category {
-    margin-bottom: 60px;
-    break-inside: avoid;
+    columns: auto 350px;
+    column-gap: 40px;
 }
 
 .category-header {
@@ -125,6 +120,11 @@ h1 {
 }
 
 .dish {
+    break-inside: avoid;
+    margin-bottom: 50px;
+}
+
+.dish-inner {
     background-color: #040404;
     padding: 20px 30px;
     border: 6px solid #222;

@@ -34,8 +34,7 @@
         data_js.onload = () => {
             let main_container_el = document.querySelector('.main-container');
 
-            render_categories(main_container_el);
-            render_dishes();
+            render_dishes(main_container_el);
         };
 
         document.getElementsByTagName('body')[0].append(data_js);

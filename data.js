@@ -113,7 +113,7 @@ let dishes = [
         image: 'https://i.imgur.com/SMnJVNy.jpg'
     },
     {
-        english_name: 'Braised eggplant with potato and bell pepper',
+        english_name: 'Braised eggplant, potato, and bell pepper',
         chinese_name: '地三鲜',
         category: 'chinese',
         english_notes: 'A North-eastern Chinese classic. Very savory.',
@@ -199,7 +199,7 @@ let categories = {
         chinese_name: '韩式'
     },
     'chinese_comfort': {
-        english_name: 'Chinese Comfort Food',
+        english_name: 'Chinese Home Food',
         chinese_name: '中式家常菜'
     },
     'original': {
