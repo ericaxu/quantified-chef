@@ -159,6 +159,13 @@ let dishes = [
         chinese_notes: '重点是用虾壳熬制高汤，再煮切得极小的蘑菇丁。虾仁裹上香辣的脆壳，沾着绵软的蘑菇浓汁一起入口。',
         date: '2013-08-02',
         image: 'https://i.imgur.com/vXU7aqi.jpg'
+    },
+    {
+        english_name: 'Kimchi',
+        chinese: '韩国泡菜',
+        category: 'korean',
+        date: '2013-11-25',
+        image: 'https://i.imgur.com/fWXMOEU.jpg'
     }
 ];
 
@@ -186,6 +193,10 @@ let categories = {
     'thai': {
         english_name: 'Thai',
         chinese_name: '泰国菜'
+    },
+    'korean': {
+        english_name: 'Korean',
+        chinese_name: '韩式'
     },
     'chinese_comfort': {
         english_name: 'Chinese Comfort Food',
