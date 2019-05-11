@@ -200,7 +200,53 @@ let dishes = [
         chinese_name: '宫廷桃酥',
         category: 'chinese_pastry',
         date: '2014-07-13',
-        image: ''
+        image: 'https://i.imgur.com/mXmxbS1.jpg'
+    },
+    {
+        english_name: 'Italian egg york cookie',
+        chinese_name: '玛格丽特饼干',
+        category: 'american_pastry',
+        chinese_notes: '特别酥，酥得都快拿不起来了。',
+        date: '2014-05-24',
+        image: 'https://i.imgur.com/ZFk7Tbj.jpg'
+    },
+    {
+        english_name: 'Tomato egg drop soup with herbs',
+        chinese_name: '清新番茄蛋汤',
+        category: 'chinese_comfort',
+        english_notes: 'The fresh herb mix is the secret: finely chopped scallions, cilantro, and basil. Also balancing the sweetness, sourness, and savoriness of the soup is important',
+        date: '2014-07-12',
+        image: 'https://i.imgur.com/4NvMHq0.jpg'
+    },
+    {
+        english_name: 'Peppery caramelized chicken breast',
+        chinese_name: '黑胡椒焦糖鸡胸肉',
+        category: 'original',
+        english_notes: 'Cook the chicken breast sous vide to keep it juice.',
+        date: '2019-04-28',
+        image: 'https://i.imgur.com/vfhFnrt.jpg'
+    },
+    {
+        english_name: 'Deep fried chicken wing',
+        chinese_name: '香辣鸡翅',
+        category: 'american',
+        chinese_notes: '鳞片万岁！',
+        date: '2018-10-23',
+        image: 'https://i.imgur.com/ycdiqHu.jpg'
+    },
+    {
+        english_name: 'Fish fillets in hot chili oil',
+        chinese_name: '水煮鱼',
+        category: 'chinese',
+        date: '2018-10-19',
+        image: 'https://i.imgur.com/U5xqlRJ.jpg'
+    },
+    {
+        english_name: 'Home-style chow mein with soy sauce',
+        chinese_name: '家常酱油炒面',
+        category: 'chinese_comfort',
+        date: '2018-10-17',
+        image: 'https://i.imgur.com/Xf0cHpA.jpg'
     }
 ];
 

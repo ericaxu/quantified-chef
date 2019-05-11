@@ -168,13 +168,13 @@ h1 {
     margin-top: 10px;
 }
 
-.dish.mod-not-completed {
+.dish-inner.mod-not-completed {
     background-color: #222;
     color: #999;
     border: 6px solid #444;
     opacity: 0.5;
 }
 
-.dish.mod-not-completed .dish-image {
+.dish-inner.mod-not-completed .dish-image {
     opacity: 0.5;
 }
