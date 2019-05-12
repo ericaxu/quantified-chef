@@ -43,10 +43,12 @@ h1 {
     text-align: center;
     color: #ccc;
     margin: 20px 0 0 0;
-    font-size: 60px;
-    font-weight: 300;
+    letter-spacing: -1px;
+    font-size: 50px;
+    font-weight: 200;
     font-family: 'Raleway', sans-serf;
     color: #d4af37;
+    text-transform: uppercase;
 }
 
 .subheading {
@@ -164,10 +166,18 @@ h1 {
 .dish-made-date {
     display: block;
     text-align: center;
-    margin-bottom: 10px;
+    padding: 2px 0;
+    margin: 2px 0 8px 0;
     font-size: 12px;
     color: #bbb;
     letter-spacing: 1px;
+    cursor: default;
+    position: relative;
+}
+
+.dish-made-date .tooltip:before {
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .dish-english-notes, .dish-chinese-notes {

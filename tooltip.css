@@ -13,20 +13,12 @@
     visibility: visible;
     opacity: 0;
     pointer-events: none;
-    -webkit-transition: opacity 70ms linear 300ms;
-    -moz-transition: opacity 70ms linear 300ms;
-    transition: opacity 70ms linear 300ms;
+    transition: opacity 70ms linear 200ms;
 }
 
 /* Position tooltip below the element */
 
 .tooltip:before {
-    -moz-border-radius: 6px;
-    -moz-transform: translate(-50%, 0);
-    -ms-transform: translate(-50%, 0);
-    -o-transform: translate(-50%, 0);
-    -webkit-border-radius: 6px;
-    -webkit-transform: translate(-50%, 0);
     background-color: #d4af37;
     border-radius: 6px;
     color: #000;
@@ -44,16 +36,10 @@
 }
 
 .tooltip.mod-left-side:before {
-    -moz-transform: translate(-20%, 0);
-    -ms-transform: translate(-20%, 0);
-    -o-transform: translate(-20%, 0);
     transform: translate(-20%, 0);
 }
 
 .tooltip.mod-right-side:before {
-    -moz-transform: translate(-80%, 0);
-    -ms-transform: translate(-80%, 0);
-    -o-transform: translate(-80%, 0);
     transform: translate(-80%, 0);
 }
 
@@ -64,10 +50,6 @@
 .tooltip.mod-right:before {
     top: 0;
     left: calc(100% + 5px);
-    -webkit-transform: none;
-    -moz-transform: none;
-    -ms-transform: none;
-    -o-transform: none;
     transform: none;
 }
 

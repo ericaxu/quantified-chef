@@ -23,6 +23,25 @@ function create_el(tag, parent, class_name, text) {
     return new_element;
 }
 
+function sort_dishes() {
+    dishes.sort((d1, d2) => {
+        if (!d1.date && !d2.date) {
+            return -1;
+        }
+        if (!d1.date) {
+            return 1;
+        }
+        if (!d2.date) {
+            return -1;
+        }
+
+        let d1_date = new Date(d1.date);
+        let d2_date = new Date(d2.date);
+
+        return d2_date.getTime() - d1_date.getTime();
+    });
+}
+
 function render_categories(container) {
     for (let category in categories) {
         let id = category;
@@ -97,7 +116,9 @@ function render_dishes(container_el) {
                     last_updated_ts = date.getTime();
                 }
 
-                create_el('div', dish_el, 'dish-made-date', date.toLocaleDateString());
+                let date_el = create_el('div', dish_el, 'dish-made-date', moment(date).fromNow());
+                let date_tooltip_el = create_el('div', date_el, 'tooltip');
+                date_tooltip_el.setAttribute('data-title', date.toLocaleDateString());
             }
 
             if (dish.english_notes) {

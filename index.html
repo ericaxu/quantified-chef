@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Erica's Cooking</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:300,400|Noto+Serif+SC" rel="stylesheet">
+    <title>Erica Cooks</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:200|Noto+Serif+SC" rel="stylesheet">
     <link rel="stylesheet" href="simpleLightbox.min.css">
     <link rel="stylesheet" href="tooltip.css">
     <link rel="stylesheet" href="style.css">
@@ -15,7 +15,7 @@
 
 <body>
     <h1>Erica Cooks</h1>
-    <div class="subheading">Dishes Erica has made and wants to make</div>
+    <div class="subheading">dishes made & dishes to make</div>
     <div class="heading-stats">
         <span class="heading-stat">Last upudated: <span class="heading-stat-value last-updated-date"></span></span>
         <span class="heading-stat">Completed dishes: <span
@@ -25,6 +25,7 @@
 
     <div class="main-container"></div>
 
+    <script type="text/javascript" src="moment.min.js"></script>
     <script type="text/javascript" src="simpleLightbox.min.js"></script>
     <script type="text/javascript" src="render.js"></script>
     <script>
@@ -35,7 +36,7 @@
         data_js.onload = () => {
             let main_container_el = document.querySelector('.main-container');
 
-            // sort_dishes();
+            sort_dishes();
             render_categories(main_container_el);
             render_dishes();
         };
