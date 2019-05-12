@@ -121,7 +121,7 @@ h1 {
 
 .dish {
     break-inside: avoid;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .dish-inner {
@@ -155,8 +155,8 @@ h1 {
 .dish-image {
     max-width: 100%;
     height: auto;
-    border: 2px solid rgba(212, 175, 55, 0.75);
-    border-radius: 2px;
+    /* border: 2px solid rgba(212, 175, 55, 0.75); */
+    border-radius: 4px;
     cursor: pointer;
 }
 

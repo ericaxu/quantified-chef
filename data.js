@@ -19,7 +19,7 @@ let dishes = [
     {
         english_name: 'Chiffon cake',
         chinese_name: '戚风蛋糕',
-        category: 'american_pastry',
+        category: 'western_pastry',
         english_notes: 'Made this plenty of times. Great as the base of a birthday cake too.',
         date: '2018-10-17',
         image: 'https://i.imgur.com/pLiXta1.jpg'
@@ -170,7 +170,7 @@ let dishes = [
     {
         english_name: 'Yogurt cheesecake',
         chinese: '冻酸奶芝士蛋糕',
-        category: 'american_pastry',
+        category: 'western_pastry',
         date: '2014-05-17',
         image: 'https://i.imgur.com/r4r7rFa.jpg'
     },
@@ -191,7 +191,7 @@ let dishes = [
     {
         english_name: 'Portuguese egg tart',
         chinese_name: '葡式蛋挞',
-        category: 'american_pastry',
+        category: 'western_pastry',
         date: '2016-06-18',
         image: 'https://i.imgur.com/yvOUcX1.jpg'
     },
@@ -205,7 +205,7 @@ let dishes = [
     {
         english_name: 'Italian egg york cookie',
         chinese_name: '玛格丽特饼干',
-        category: 'american_pastry',
+        category: 'western_pastry',
         chinese_notes: '特别酥，酥得都快拿不起来了。',
         date: '2014-05-24',
         image: 'https://i.imgur.com/ZFk7Tbj.jpg'
@@ -268,6 +268,49 @@ let dishes = [
         category: 'original',
         date: '2016-03-23',
         image: 'https://i.imgur.com/fjQXEdC.jpg'
+    },
+    {
+        english_name: 'Pork bone soup (Gamjatang)',
+        chinese_name: '韩式猪骨汤',
+        category: 'korean',
+        english_notes: "I didn't realize there's tons of perilla seed powder in the soup; I certainly didn't taste it. Very subtle and pretty surprising!",
+        date: '2018-06-03',
+        image: 'https://i.imgur.com/V1mDhjD.jpg'
+    },
+    {
+        english_name: 'Bibimbap',
+        chinese_name: '石锅拌饭',
+        category: 'korean',
+        date: '2018-06-03',
+        image: 'https://i.imgur.com/Lw1Q5sd.jpg'
+    },
+    {
+        english_name: 'Biscotti',
+        chinese_name: '意式脆饼',
+        category: 'western_pastry',
+        date: '2016-02-19',
+        image: 'https://i.imgur.com/g0JlPM0.jpg'
+    },
+    {
+        english_name: 'Red bean paste pie (Dorayaki)',
+        chinese_name: '铜锣烧',
+        category: 'japanese',
+        date: '2016-01-27',
+        image: 'https://i.imgur.com/eIWf1SI.jpg'
+    },
+    {
+        english_name: 'Soba noodles',
+        chinese_name: '荞麦面',
+        category: 'japanese',
+        date: '2016-07-09',
+        image: 'https://i.imgur.com/Pl6oBfQ.jpg'
+    },
+    {
+        english_name: 'Maki roll platter',
+        chinese_name: '太卷拼盘',
+        category: 'japanese',
+        date: '2016-06-28',
+        image: 'https://i.imgur.com/AT6qai5.jpg'
     }
 ];
 
@@ -288,9 +331,9 @@ let categories = {
         english_name: 'Amercian Breakfast',
         chinese_name: '美式早餐'
     },
-    'american_pastry': {
-        english_name: 'Amercian Pastry',
-        chinese_name: '美式烘焙'
+    'western_pastry': {
+        english_name: 'Western Pastry',
+        chinese_name: '西式烘焙'
     },
     'thai': {
         english_name: 'Thai',
@@ -299,6 +342,10 @@ let categories = {
     'korean': {
         english_name: 'Korean',
         chinese_name: '韩式'
+    },
+    'japanese': {
+        english_name: 'Japanese',
+        chinese_name: '日式'
     },
     'chinese_comfort': {
         english_name: 'Chinese Home Food',
