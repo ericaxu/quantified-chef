@@ -41,9 +41,8 @@ body {
 
 h1 {
     text-align: center;
-    letter-spacing: 5px;
     color: #ccc;
-    margin: 6px 0 0 0;
+    margin: 20px 0 0 0;
     font-size: 60px;
     font-weight: 300;
     font-family: 'Raleway', sans-serf;
@@ -52,7 +51,6 @@ h1 {
 
 .subheading {
     text-align: center;
-    margin-top: -5px;
     color: #aaa;
     font-size: 20px;
 }
@@ -60,7 +58,7 @@ h1 {
 .heading-stats {
     text-align: center;
     color: #999;
-    margin: 10px 0 30px 0;
+    margin: 20px 0 30px 0;
 }
 
 .heading-stat {
@@ -109,20 +107,23 @@ h1 {
 }
 
 .category-progress {
-    height: 8px;
+    height: 12px;
     width: 400px;
-    background-color: #333;
+    background-color: #111;
     margin: 10px auto;
     position: relative;
     cursor: help;
-    border: 2px solid #666;
+    border: 1px solid rgba(212, 175, 55, 0.35);
     border-radius: 10px;
-    padding: 3px;
 }
 
 .category-progress-inner {
-    background-color: rgba(212, 175, 55, 0.5);
-    height: 100%;
+    background-color: rgba(212, 175, 55, 0.2);
+    width: calc(100% - 6px);
+    height: 6px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
     border-radius: 10px;
 }
 
@@ -130,6 +131,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: cen;
 }
 
 .dish {
@@ -188,7 +190,7 @@ h1 {
     opacity: 0.5;
 }
 
-.slbCloseBtn  {
+.slbCloseBtn {
     color: #d4af37;
     outline: none;
 }

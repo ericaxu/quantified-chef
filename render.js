@@ -112,8 +112,8 @@ function render_dishes(container_el) {
             let made_dishes_count = parseInt(progress_el.getAttribute('data-made'));
             let percentage = ((made_dishes_count / all_dishes_count) * 100).toString() + '%';
 
-            progress_el.querySelector('.tooltip').setAttribute('data-title', `${made_dishes_count}/${all_dishes_count}, ${percentage} done`);
-            progress_el.querySelector('.category-progress-inner').style.width = percentage;
+            progress_el.querySelector('.tooltip').setAttribute('data-title', `${made_dishes_count}/${all_dishes_count}`);
+            progress_el.querySelector('.category-progress-inner').style.width = `calc(${percentage} - 6px)`;
 
         }
         else {

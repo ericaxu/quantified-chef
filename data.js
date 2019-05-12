@@ -183,7 +183,7 @@ let dishes = [
     },
     {
         english_name: 'Chicken under a brick',
-        chinese_name: '为搬砖而折腰的鸡',
+        chinese_name: '搬砖鸡',
         category: 'american',
         date: '2018-11-07',
         image: 'https://i.imgur.com/m43HYQX.jpg'
@@ -214,7 +214,7 @@ let dishes = [
         english_name: 'Tomato egg drop soup with herbs',
         chinese_name: '清新番茄蛋汤',
         category: 'chinese_comfort',
-        english_notes: 'The fresh herb mix is the secret: finely chopped scallions, cilantro, and basil. Also balancing the sweetness, sourness, and savoriness of the soup is important',
+        english_notes: 'The fresh herb mix is the secret: finely chopped scallions, cilantro, and basil. Balancing the sweetness, sourness, and savoriness is also important',
         date: '2014-07-12',
         image: 'https://i.imgur.com/4NvMHq0.jpg'
     },
