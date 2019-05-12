@@ -72,6 +72,8 @@ function render_dishes(container_el) {
             progress_el.setAttribute('data-id', category_id);
             create_el('div', progress_el, 'category-progress-inner');
             create_el('div', category_el, 'category-dishes-container');
+            let progress_tooltip_el = create_el('div', progress_el, 'tooltip');
+            progress_tooltip_el.setAttribute('data-title', '');
 
             let dish_inner_el = create_el('div', dish_el, 'dish-inner');
             let dish_header_el = create_el('div', dish_inner_el, 'dish-header');
@@ -128,7 +130,7 @@ function render_dishes(container_el) {
             let percentage = ((made_dishes_count / all_dishes_count) * 100).toString() + '%';
 
             for (let el of [...existing_progress_els, progress_el]) {
-                el.setAttribute('title', `${made_dishes_count}/${all_dishes_count}, ${percentage} done`);
+                el.querySelector('.tooltip').setAttribute('data-title', `${made_dishes_count}/${all_dishes_count}, ${percentage} done`);
                 el.querySelector('.category-progress-inner').style.width = percentage;
             }
 

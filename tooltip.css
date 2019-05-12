@@ -1,0 +1,112 @@
+.tooltip {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 301;
+}
+
+/* Hide the tooltip content by default */
+
+.tooltip:before, .tooltip:after {
+    visibility: visible;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: opacity 70ms linear 300ms;
+    -moz-transition: opacity 70ms linear 300ms;
+    transition: opacity 70ms linear 300ms;
+}
+
+/* Position tooltip below the element */
+
+.tooltip:before {
+    -moz-border-radius: 6px;
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -webkit-border-radius: 6px;
+    -webkit-transform: translate(-50%, 0);
+    background-color: #d4af37;
+    border-radius: 6px;
+    color: #000;
+    content: attr(data-title);
+    font-size: 15px;
+    left: 50%;
+    line-height: 20px;
+    max-width: 300px;
+    padding: 6px 15px 4px 15px;
+    position: absolute;
+    text-align: center;
+    top: calc(100% + 10px);
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+}
+
+.tooltip.mod-left-side:before {
+    -moz-transform: translate(-20%, 0);
+    -ms-transform: translate(-20%, 0);
+    -o-transform: translate(-20%, 0);
+    transform: translate(-20%, 0);
+}
+
+.tooltip.mod-right-side:before {
+    -moz-transform: translate(-80%, 0);
+    -ms-transform: translate(-80%, 0);
+    -o-transform: translate(-80%, 0);
+    transform: translate(-80%, 0);
+}
+
+.tooltip.mod-close:before {
+    top: calc(100% + 5px);
+}
+
+.tooltip.mod-right:before {
+    top: 0;
+    left: calc(100% + 5px);
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+.tooltip.mod-wide:before {
+    max-width: 450px;
+    width: 400px;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+
+.tooltip:after {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 50%;
+    width: 0;
+    margin-left: -5px;
+    border-bottom: 5px solid #d4af37;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+.tooltip.mod-close:after {
+    top: 100%;
+}
+
+.tooltip.mod-right:after {
+    top: 13px;
+    left: 100%;
+    border-right: 5px solid #d4af37;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+/* Show tooltip content on hover */
+
+.tooltip:hover:before, .tooltip:hover:after {
+    visibility: visible;
+    opacity: 1;
+}

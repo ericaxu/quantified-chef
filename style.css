@@ -107,16 +107,18 @@ h1 {
 }
 
 .category-progress {
-    height: 6px;
+    height: 8px;
     width: 100%;
     background-color: #333;
-    border-radius: 3px;
     margin: 10px 0;
+    position: relative;
+    cursor: help;
 }
 
 .category-progress-inner {
     background-color: rgba(212, 175, 55, 0.5);
     height: 100%;
+    border-radius: 10px;
 }
 
 .dish {
