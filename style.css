@@ -75,6 +75,18 @@ h1 {
     top: 0;
 }
 
+
+@media screen and (max-width: 500px) {
+    .heading-stat {
+        margin: 4px 0;
+        display: block;
+    }
+
+    .heading-stat:not(:first-child):before {
+        display: none;
+    }
+}
+
 .heading-stat-value {
     color: #d4af37;
     font-weight: bold;
@@ -111,6 +123,7 @@ h1 {
 .category-progress {
     height: 14px;
     width: 400px;
+    max-width: 100%;
     background-color: rgba(212, 175, 55, 0.4);
     margin: 10px auto;
     position: relative;
