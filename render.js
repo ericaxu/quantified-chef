@@ -115,7 +115,7 @@ function render_dishes(container_el) {
                     last_updated_ts = dish.date;
                 }
 
-                let date_el = create_el('div', dish_el, 'dish-made-date', moment(dish.date).fromNow());
+                let date_el = create_el('div', dish_el, 'dish-made-date', 'Made ' + moment(dish.date).add(1, 'days').fromNow());
                 let date_tooltip_el = create_el('div', date_el, 'tooltip');
                 date_tooltip_el.setAttribute('data-title', moment(dish.date).format('Y/M/D'));
             }

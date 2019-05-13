@@ -2,8 +2,6 @@ let dishes = [
     {
         english_name: 'Bread roll with pork floss and scallions',
         chinese_name: '肉松面包卷',
-        english_notes: "Roll the bread sheet while it's hot, and use sweetened mayonnaise as adhersive. Dip in pork floss. Sweet and savory at the same time!",
-        chinese_notes: '个人最喜欢台式的酥松肉松，效果比较好。面包一定要趁热卷哦。',
         category: 'chinese_pastry',
         date: '2018-10-23',
         image: 'https://i.imgur.com/LG82nky.jpg'
@@ -11,7 +9,6 @@ let dishes = [
     {
         english_name: 'Eggs benedict',
         chinese_name: '班尼迪克蛋',
-        english_notes: "Homemade hollandaise sauce, store bought English muffins. I love smoked salmon so I'm using that as the protein.",
         category: 'american_breakfast',
         date: '2018-11-08',
         image: 'https://i.imgur.com/7ks5csx.jpg'
@@ -20,7 +17,6 @@ let dishes = [
         english_name: 'Chiffon cake',
         chinese_name: '戚风蛋糕',
         category: 'western_pastry',
-        english_notes: 'Made this plenty of times. Great as the base of a birthday cake too.',
         date: '2018-10-17',
         image: 'https://i.imgur.com/pLiXta1.jpg'
     },
@@ -34,7 +30,6 @@ let dishes = [
         english_name: 'Green chicken and corn curry',
         chinese_name: '玉米鸡肉绿咖喱',
         category: 'thai',
-        english_notes: 'Used a store bought curry mix. Looking forward to cooking my own mix one day!',
         date: '2018-10-11',
         image: 'https://i.imgur.com/wQWGOOg.jpg'
     },
@@ -48,8 +43,6 @@ let dishes = [
         english_name: 'Mooncake',
         chinese_name: '广式月饼',
         category: 'chinese_pastry',
-        english_notes: "With cantaloupe filling. After cooking down the filling, it tastes like sweet potato to me somehow.",
-        chinese_notes: '哈密瓜馅，却尝起来像红薯馅，也许商店里卖的是用香精做成的吧！',
         date: '2018-09-21',
         image: 'https://i.imgur.com/bvEMrzN.jpg'
     },
@@ -79,7 +72,6 @@ let dishes = [
         chinese_name: '松仁玉米',
         category: 'chinese',
         date: '2019-05-06',
-        english_notes: "It looks better in dark plates. Be sure to toast the pine nuts until it's a little bit oily and shiny.",
         image: 'https://i.imgur.com/GmyWO3J.jpg'
     },
     {
@@ -87,7 +79,6 @@ let dishes = [
         chinese_name: '炸土豆泥球',
         category: 'american',
         date: '2019-05-06',
-        english_notes: "A good way to use up mashed potato when you make too much.",
         image: 'https://i.imgur.com/WcdxXvU.jpg'
     },
     {
@@ -95,7 +86,6 @@ let dishes = [
         chinese_name: '清炒空心菜',
         category: 'chinese_comfort',
         date: '2018-09-13',
-        chinese_notes: '空心菜的特殊香气总是让我念念不忘。一定要把老的根部纤维去掉，不然会咬不动。',
         image: 'https://i.imgur.com/RNJcYwP.jpg'
     },
     {
@@ -116,7 +106,6 @@ let dishes = [
         english_name: 'Braised eggplant, potato, and bell pepper',
         chinese_name: '地三鲜',
         category: 'chinese',
-        english_notes: 'A North-eastern Chinese classic. Very savory.',
         date: '2018-09-17',
         image: 'https://i.imgur.com/HrRODYg.jpg'
     },
@@ -124,7 +113,6 @@ let dishes = [
         english_name: 'Pan-seared shrimp with chorizo and corn',
         chinese_name: '乔利佐玉米煎虾',
         category: 'american',
-        english_notes: 'Followed a Bon Appétit recipe. Replaced scallops with shrimp, but should try the original one day.',
         date: '2018-10-05',
         image: 'https://i.imgur.com/0itUUWn.jpg'
     },
@@ -139,7 +127,6 @@ let dishes = [
         english_name: 'Braised shiitake mushroom with bok choy',
         chinese_name: '浓汤香菇青菜',
         category: 'chinese_comfort',
-        english_notes: 'They are braised in rich chicken stock, which is reduced and emulsified chicken stock.',
         date: '2019-05-08',
         image: 'https://i.imgur.com/mdokPb8.jpg'
     },
@@ -147,7 +134,6 @@ let dishes = [
         english_name: 'Taiwanese fried chicken',
         chinese_name: '盐酥鸡',
         category: 'chinese',
-        english_notes: 'Use coarse sweet potato starch for the unique texture.',
         date: '2019-04-18',
         image: 'https://i.imgur.com/iTbB3t2.jpg'
     },
@@ -155,8 +141,6 @@ let dishes = [
         english_name: 'Pan-fried shrimp in mushroom sauce',
         chinese: '蘑菇浓汁浇虾',
         category: 'original',
-        english_notes: 'Use shrimp shells to make a quick stock with butter, braise finely diced white mushroom in it, season with soy sauce and a bit of oyster sauce. Coat the shrimp in a slightly spicy coating, and eat it with the creamy, savory mushroom sauce.',
-        chinese_notes: '重点是用虾壳熬制高汤，再煮切得极小的蘑菇丁。虾仁裹上香辣的脆壳，沾着绵软的蘑菇浓汁一起入口。',
         date: '2013-08-02',
         image: 'https://i.imgur.com/vXU7aqi.jpg'
     },
@@ -206,7 +190,6 @@ let dishes = [
         english_name: 'Italian egg york cookie',
         chinese_name: '玛格丽特饼干',
         category: 'western_pastry',
-        chinese_notes: '特别酥，酥得都快拿不起来了。',
         date: '2014-05-24',
         image: 'https://i.imgur.com/ZFk7Tbj.jpg'
     },
@@ -214,7 +197,6 @@ let dishes = [
         english_name: 'Tomato egg drop soup with herbs',
         chinese_name: '清新番茄蛋汤',
         category: 'chinese_comfort',
-        english_notes: 'The fresh herb mix is the secret: finely chopped scallions, cilantro, and basil. Balancing the sweetness, sourness, and savoriness is also important',
         date: '2014-07-12',
         image: 'https://i.imgur.com/4NvMHq0.jpg'
     },
@@ -222,7 +204,6 @@ let dishes = [
         english_name: 'Peppery caramelized chicken breast',
         chinese_name: '黑胡椒焦糖鸡胸肉',
         category: 'original',
-        english_notes: 'Cook the chicken breast sous vide to keep it juice.',
         date: '2019-04-28',
         image: 'https://i.imgur.com/vfhFnrt.jpg'
     },
@@ -230,7 +211,6 @@ let dishes = [
         english_name: 'Deep fried chicken wing',
         chinese_name: '香辣鸡翅',
         category: 'american',
-        chinese_notes: '鳞片万岁！',
         date: '2018-10-23',
         image: 'https://i.imgur.com/ycdiqHu.jpg'
     },
@@ -273,7 +253,6 @@ let dishes = [
         english_name: 'Pork bone soup (Gamjatang)',
         chinese_name: '韩式猪骨汤',
         category: 'korean',
-        english_notes: "I didn't realize there's tons of perilla seed powder in the soup; I certainly didn't taste it. Very subtle and pretty surprising!",
         date: '2018-06-03',
         image: 'https://i.imgur.com/V1mDhjD.jpg'
     },
@@ -311,6 +290,62 @@ let dishes = [
         category: 'japanese',
         date: '2016-06-28',
         image: 'https://i.imgur.com/AT6qai5.jpg'
+    },
+    {
+        english_name: 'Pan-seared scallops with yellow pepper sauce',
+        chinese_name: '煎扇贝配甜黄椒酱',
+        category: 'american',
+        date: '2019-05-06',
+        image: 'https://i.imgur.com/BpB2Mwp.jpg'
+    },
+    {
+        english_name: 'Sweet and sour lotus root slides',
+        chinese_name: '酸甜藕片',
+        category: 'chinese_comfort',
+        date: '2019-05-11',
+        image: 'https://i.imgur.com/g9OEHuh.jpg'
+    },
+    {
+        english_name: 'Steamed lobsters',
+        chinese_name: '清蒸龙虾',
+        category: 'other',
+        date: '2019-05-12',
+        image: 'https://i.imgur.com/LAC1MJw.jpg'
+    },
+    {
+        english_name: 'Korean style sweet potato appetizer',
+        chinese_name: '韩式甜土豆',
+        category: 'korean',
+        date: '2019-05-11',
+        image: 'https://i.imgur.com/vF4kVfC.jpg'
+    },
+    {
+        english_name: 'Pan-seared chicken breast',
+        chinese_name: '香嫩煎鸡胸',
+        category: 'american',
+        date: '2019-05-12',
+        image: 'https://i.imgur.com/zk2IbB9.jpg'
+    },
+    {
+        english_name: 'California roll',
+        chinese_name: '加州卷',
+        category: 'japanese',
+        date: '2019-05-12',
+        image: 'https://i.imgur.com/Q9U9ja6.jpg'
+    },
+    {
+        english_name: 'Handmade pasta in tomato basil sauce',
+        chinese_name: '番茄手工意大利面',
+        category: 'italian',
+        date: '2019-05-11',
+        image: 'https://i.imgur.com/jSdHkSf.jpg'
+    },
+    {
+        english_name: 'Sweet olive flower pickled lotus root',
+        chinese_name: '酸甜桂花藕片',
+        category: 'original',
+        date: '2019-05-11',
+        image: 'https://i.imgur.com/hGYrxTh.jpg'
     }
 ];
 
@@ -323,6 +358,10 @@ let categories = {
         english_name: 'Chinese Pastry',
         chinese_name: '中式烘焙'
     },
+    'original': {
+        english_name: 'Original',
+        chinese_name: '原创'
+    },
     'american': {
         english_name: 'American',
         chinese_name: '美式'
@@ -330,6 +369,10 @@ let categories = {
     'american_breakfast': {
         english_name: 'Amercian Breakfast',
         chinese_name: '美式早餐'
+    },
+    'italian': {
+        english_name: 'Italian',
+        chinese_name: '意大利菜'
     },
     'western_pastry': {
         english_name: 'Western Pastry',
@@ -351,12 +394,12 @@ let categories = {
         english_name: 'Chinese Home Food',
         chinese_name: '中式家常菜'
     },
-    'original': {
-        english_name: 'Original',
-        chinese_name: '原创'
-    },
     'desert': {
         english_name: 'Drink & Desert',
         chinese_name: '饮料 & 甜品'
+    },
+    'other': {
+        english_name: 'Other',
+        chinese_name: '其他'
     }
 };
