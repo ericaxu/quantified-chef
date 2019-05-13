@@ -111,14 +111,13 @@ function render_dishes(container_el) {
                 dishes_made_count += 1;
                 progress_el.setAttribute('data-made', (parseInt(progress_el.getAttribute('data-made')) + 1).toString());
 
-                let date = new Date(dish.date + ' EST');
-                if (date.getTime() > last_updated_ts) {
-                    last_updated_ts = date.getTime();
+                if ((new Date(dish.date).getTime()) > (new Date(last_updated_ts).getTime())) {
+                    last_updated_ts = dish.date;
                 }
 
-                let date_el = create_el('div', dish_el, 'dish-made-date', moment(date).fromNow());
+                let date_el = create_el('div', dish_el, 'dish-made-date', moment(dish.date).fromNow());
                 let date_tooltip_el = create_el('div', date_el, 'tooltip');
-                date_tooltip_el.setAttribute('data-title', moment(date).format('Y/M/D'));
+                date_tooltip_el.setAttribute('data-title', moment(dish.date).format('Y/M/D'));
             }
 
             if (dish.english_notes) {
