@@ -118,7 +118,7 @@ function render_dishes(container_el) {
 
                 let date_el = create_el('div', dish_el, 'dish-made-date', moment(date).fromNow());
                 let date_tooltip_el = create_el('div', date_el, 'tooltip');
-                date_tooltip_el.setAttribute('data-title', date.toLocaleDateString());
+                date_tooltip_el.setAttribute('data-title', moment(date).format('Y/M/D'));
             }
 
             if (dish.english_notes) {
@@ -143,7 +143,7 @@ function render_dishes(container_el) {
 
     }
 
-    document.querySelector('.last-updated-date').textContent = new Date(last_updated_ts).toLocaleDateString();
+    document.querySelector('.last-updated-date').textContent = moment(last_updated_ts).format('Y/M/D');
     document.querySelector('.completed-dishes-num').textContent = dishes_made_count;
     document.querySelector('.dishes-to-make-num').textContent = dishes_to_make_count;
 }
