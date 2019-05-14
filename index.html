@@ -17,11 +17,22 @@
     <h1>Erica Cooks</h1>
     <div class="subheading">dishes made & dishes to make</div>
     <div class="heading-stats">
-        <span class="heading-stat">Last upudated: <span class="heading-stat-value last-updated-date"></span></span>
-        <span class="heading-stat">Completed: <span
-                class="heading-stat-value completed-dishes-num"></span></span>
-        <span class="heading-stat">To make: <span class="heading-stat-value dishes-to-make-num"></span></span>
-        <span class="heading-stat">Total: <span class="heading-stat-value total-dishes-num"></span></span>
+        <span class="heading-stat">
+            Last upudated: <span class="heading-stat-value last-updated-date"></span>
+            <div class="tooltip" data-title="When the most recent dishes was made"></div>
+        </span>
+        <span class="heading-stat">
+            Completed: <span class="heading-stat-value completed-dishes-num"></span>
+            <div class="tooltip" data-title="Number of dishes I've made"></div>
+        </span>
+        <span class="heading-stat">
+            To make: <span class="heading-stat-value dishes-to-make-num"></span>
+            <div class="tooltip" data-title="Number of dishes I want to make"></div>
+        </span>
+        <span class="heading-stat">
+            Progress: <span class="heading-stat-value progress-percent"></span>
+            <div class="tooltip" data-title="Progress towards the 1,000 dishes goal"></div>
+        </span>
     </div>
 
     <div class="main-container"></div>
