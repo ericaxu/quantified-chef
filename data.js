@@ -346,6 +346,18 @@ let dishes = [
         category: 'original',
         date: '2019-05-11',
         image: 'https://i.imgur.com/hGYrxTh.jpg'
+    },
+    {
+        english_name: 'Apple pie',
+        chinese_name: '苹果派',
+        category: 'western_pastry',
+        image: 'https://images-gmi-pmc.edge-generalmills.com/173da066-c6b4-45dd-9b28-0d459cf6f169.jpg'
+    },
+    {
+        english_name: 'Key lime pie',
+        chinese_name: '美式柠檬派',
+        category: 'western_pastry',
+        image: 'https://timeincsecure-a.akamaihd.net/rtmp_uds/474428695/201605/1787/474428695_4874820931001_4870893853001-vs.jpg'   
     }
 ];
 
