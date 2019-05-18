@@ -34,12 +34,6 @@ let dishes = [
         image: 'https://i.imgur.com/wQWGOOg.jpg'
     },
     {
-        english_name: 'Pad Thai',
-        chinese_name: '泰式炒河粉',
-        category: 'thai', 
-        image: 'https://cdn.shopify.com/s/files/1/0732/8155/products/PadThai_2048x2048_9d15724e-7fdc-4e2a-9b8f-f7329a553beb_2048x2048.jpg'
-    },
-    {
         english_name: 'Mooncake',
         chinese_name: '广式月饼',
         category: 'chinese_pastry',
@@ -153,7 +147,7 @@ let dishes = [
     },
     {
         english_name: 'Yogurt cheesecake',
-        chinese: '冻酸奶芝士蛋糕',
+        chinese_name: '冻酸奶芝士蛋糕',
         category: 'western_pastry',
         date: '2014-05-17',
         image: 'https://i.imgur.com/r4r7rFa.jpg'
@@ -358,6 +352,48 @@ let dishes = [
         chinese_name: '美式柠檬派',
         category: 'western_pastry',
         image: 'https://timeincsecure-a.akamaihd.net/rtmp_uds/474428695/201605/1787/474428695_4874820931001_4870893853001-vs.jpg'   
+    },
+    {
+        english_name: 'Pad Thai',
+        chinese_name: '泰式炒河粉',
+        category: 'thai',
+        date: '2019-05-17',
+        image: 'https://i.imgur.com/LdAdB9q.jpg'
+    },
+    {
+        english_name: 'Chicken heart stir-fry with cumin and coriander',
+        chinese_name: '孜然炒鸡心',
+        category: 'chinese_comfort',
+        date: '2013-07-15',
+        image: 'https://i.imgur.com/RiYn2hK.jpg'
+    },
+    {
+        english_name: 'Braised pork feet with soy beans',
+        chinese_name: '黄豆炖猪蹄',
+        category: 'chinese',
+        date: '2014-03-24',
+        image: 'https://i.imgur.com/EUcIyee.jpg'
+    },
+    {
+        english_name: 'Chicken heart stir-fry with green finger hot ppers',
+        chinese_name: '青椒炒鸡心',
+        category: 'chinese_comfort',
+        date: '2019-05-10',
+        image: 'https://i.imgur.com/ASvy15g.jpg'
+    },
+    {
+        english_name: 'Briased pork ribs and North-eastern string beans',
+        chinese_name: '油豆角炖排骨',
+        category: 'chinese_comfort',
+        date: '2019-04-26',
+        image: 'https://i.imgur.com/k31gIYG.jpg'
+    },
+    {
+        english_name: 'Green bean flavored shaved ice',
+        chinese_name: '绿豆刨冰',
+        category: 'desert',
+        date: '2012-09-28',
+        image: 'https://i.imgur.com/PzOZb7W.jpg'
     }
 ];
 
