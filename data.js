@@ -394,6 +394,27 @@ let dishes = [
         category: 'desert',
         date: '2012-09-28',
         image: 'https://i.imgur.com/PzOZb7W.jpg'
+    },
+    {
+        english_name: 'Picked radish and cucumber salad',
+        chinese_name: '腌萝卜黄瓜沙拉',
+        category: 'original',
+        date: '2018-05-28',
+        image: 'https://i.imgur.com/aUolTEt.jpg'
+    },
+    {
+        english_name: 'Fried pork in scoop',
+        chinese_name: '锅包肉',
+        category: 'chinese',
+        date: '2018-09-22',
+        image: 'https://i.imgur.com/E5w9xUS.jpg'
+    },
+    {
+        english_name: 'Pineapple cake',
+        chinese_name: '凤梨酥',
+        category: 'chinese_pastry',
+        date: '2018-06-20',
+        image: 'https://i.imgur.com/1GhZM1E.png'
     }
 ];
 
