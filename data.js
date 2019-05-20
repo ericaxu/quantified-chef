@@ -133,14 +133,14 @@ let dishes = [
     },
     {
         english_name: 'Pan-fried shrimp in mushroom sauce',
-        chinese: '蘑菇浓汁浇虾',
+        chinese_name: '蘑菇浓汁浇虾',
         category: 'original',
         date: '2013-08-02',
         image: 'https://i.imgur.com/vXU7aqi.jpg'
     },
     {
         english_name: 'Kimchi',
-        chinese: '韩国泡菜',
+        chinese_name: '韩国泡菜',
         category: 'korean',
         date: '2013-11-25',
         image: 'https://i.imgur.com/fWXMOEU.jpg'
@@ -415,6 +415,41 @@ let dishes = [
         category: 'chinese_pastry',
         date: '2018-06-20',
         image: 'https://i.imgur.com/1GhZM1E.png'
+    },
+    {
+        english_name: 'Poached chicken in garlic oil',
+        chinese_name: '葱油鸡',
+        category: 'chinese',
+        date: '2016-07-09',
+        image: 'https://i.imgur.com/tABg9eg.jpg'
+    },
+    {
+        english_name: 'Celery stir-fry with cashews',
+        chinese_name: '芹菜炒腰果',
+        category: 'chinese_comfort',
+        date: '2016-05-11',
+        image: 'https://i.imgur.com/iJoXCWf.jpg'
+    },
+    {
+        english_name: 'Sweet and sour pork ribs',
+        chinese_name: '糖醋排骨',
+        category: 'chinese',
+        date: '2018-03-13',
+        image: 'https://i.imgur.com/wS7XZTM.jpg'
+    },
+    {
+        english_name: 'Seafood scallion pancake',
+        chinese_name: '韩式海鲜葱饼',
+        category: 'korean',
+        date: '2016-05-11',
+        image: 'https://i.imgur.com/FE6rkAf.jpg'
+    },
+    {
+        english_name: 'Dry-fried green beans',
+        chinese_name: '干煸四季豆',
+        category: 'chinese',
+        date: '2016-07-09',
+        image: 'https://i.imgur.com/rwR3a1g.jpg'
     }
 ];
 
