@@ -478,6 +478,12 @@ let dishes = [
         category: 'chinese_comfort',
         date: '2019-05-26',
         image: 'https://i.imgur.com/lMWyyDm.jpg'
+    },
+    {
+        english_name: 'Beef chow fun',
+        chinese_name: '干炒牛河',
+        category: 'chinese',
+        image: 'https://i.pinimg.com/originals/43/9b/3b/439b3b1291f1399cc362982cc6a4a325.jpg'
     }
 ];
 
