@@ -212,8 +212,8 @@ let dishes = [
         english_name: 'Fish fillets in hot chili oil',
         chinese_name: '水煮鱼',
         category: 'chinese',
-        date: '2018-10-19',
-        image: 'https://i.imgur.com/U5xqlRJ.jpg'
+        date: '2019-05-26',
+        image: 'https://i.imgur.com/g6tlQzP.jpg'
     },
     {
         english_name: 'Home-style chow mein with soy sauce',
@@ -227,7 +227,7 @@ let dishes = [
         chinese_name: '冰卡布奇诺',
         category: 'desert',
         date: '2019-05-10',
-        image: 'https://i.imgur.com/WimUPGo.jpg'
+        image: 'https://i.imgur.com/6HfG4oU.jpg'
     },
     {
         english_name: 'Nikuman',
@@ -244,7 +244,7 @@ let dishes = [
         image: 'https://i.imgur.com/fjQXEdC.jpg'
     },
     {
-        english_name: 'Pork bone soup (Gamjatang)',
+        english_name: 'Pork bone soup',
         chinese_name: '韩式猪骨汤',
         category: 'korean',
         date: '2018-06-03',
@@ -310,8 +310,8 @@ let dishes = [
         english_name: 'Korean style sweet potato appetizer',
         chinese_name: '韩式甜土豆',
         category: 'korean',
-        date: '2019-05-11',
-        image: 'https://i.imgur.com/vF4kVfC.jpg'
+        date: '2019-05-24',
+        image: 'https://i.imgur.com/G3v75lG.jpg'
     },
     {
         english_name: 'Pan-seared chicken breast',
@@ -357,8 +357,8 @@ let dishes = [
         english_name: 'Pad Thai',
         chinese_name: '泰式炒河粉',
         category: 'thai',
-        date: '2019-05-17',
-        image: 'https://i.imgur.com/LdAdB9q.jpg'
+        date: '2019-05-22',
+        image: 'https://i.imgur.com/Lhnoc0I.jpg'
     },
     {
         english_name: 'Chicken heart stir-fry with cumin and coriander',
@@ -450,6 +450,34 @@ let dishes = [
         category: 'chinese',
         date: '2016-07-09',
         image: 'https://i.imgur.com/rwR3a1g.jpg'
+    },
+    {
+        english_name: 'Romaine lettuce in oyster sauce',
+        chinese_name: '蚝油生菜',
+        category: 'chinese_comfort',
+        date: '2019-05-25',
+        image: 'https://i.imgur.com/XcclSPD.jpg'
+    },
+    {
+        english_name: 'Braised snow pear with red date and rock sugar',
+        chinese_name: '红枣冰糖雪梨',
+        category: 'desert',
+        date: '2016-03-22',
+        image: 'https://i.imgur.com/IK5qyKh.jpg'
+    },
+    {
+        english_name: 'Tofu curd with savory toppings',
+        chinese_name: '豆腐脑',
+        category: 'chinese',
+        date: '2019-05-21',
+        image: 'https://i.imgur.com/6GSirck.jpg'
+    },
+    {
+        english_name: 'Spanich in soy sauce',
+        chinese_name: '凉拌菠菜',
+        category: 'chinese_comfort',
+        date: '2019-05-26',
+        image: 'https://i.imgur.com/lMWyyDm.jpg'
     }
 ];
 
