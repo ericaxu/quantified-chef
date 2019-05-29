@@ -227,7 +227,7 @@ let dishes = [
         chinese_name: '冰卡布奇诺',
         category: 'desert',
         date: '2019-05-10',
-        image: 'https://i.imgur.com/6HfG4oU.jpg'
+        image: 'https://i.imgur.com/WimUPGo.jpg'
     },
     {
         english_name: 'Nikuman',
@@ -302,7 +302,7 @@ let dishes = [
     {
         english_name: 'Steamed lobsters',
         chinese_name: '清蒸龙虾',
-        category: 'other',
+        category: 'chinese_comfort',
         date: '2019-05-12',
         image: 'https://i.imgur.com/LAC1MJw.jpg'
     },
@@ -483,7 +483,29 @@ let dishes = [
         english_name: 'Beef chow fun',
         chinese_name: '干炒牛河',
         category: 'chinese',
-        image: 'https://i.pinimg.com/originals/43/9b/3b/439b3b1291f1399cc362982cc6a4a325.jpg'
+        date: '2019-05-28',
+        image: 'https://i.imgur.com/uXZ7F5D.jpg'
+    },
+    {
+        english_name: 'Mango smoothie',
+        chinese_name: '芒果奶昔',
+        category: 'desert',
+        date: '2019-04-28',
+        image: 'https://i.imgur.com/5WPZM6R.jpg'
+    },
+    {
+        english_name: 'Daikon radish egg drop soup',
+        chinese_name: '萝卜丝蛋汤',
+        category: 'chinese_comfort',
+        date: '2019-05-04',
+        image: 'https://i.imgur.com/sXN45oQ.jpg'
+    },
+    {
+        english_name: 'Spicy beef salad',
+        chinese_name: '凉拌麻辣牛肉',
+        category: 'chinese',
+        date: '2016-03-22',
+        image: 'https://i.imgur.com/W6dOLLE.jpg'
     }
 ];
 
@@ -535,9 +557,5 @@ let categories = {
     'desert': {
         english_name: 'Drink & Desert',
         chinese_name: '饮料 & 甜品'
-    },
-    'other': {
-        english_name: 'Other',
-        chinese_name: '其他'
     }
 };
