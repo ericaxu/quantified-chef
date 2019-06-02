@@ -351,7 +351,7 @@ let dishes = [
         english_name: 'Key lime pie',
         chinese_name: '美式柠檬派',
         category: 'western_pastry',
-        image: 'https://timeincsecure-a.akamaihd.net/rtmp_uds/474428695/201605/1787/474428695_4874820931001_4870893853001-vs.jpg'   
+        image: 'https://timeincsecure-a.akamaihd.net/rtmp_uds/474428695/201605/1787/474428695_4874820931001_4870893853001-vs.jpg'
     },
     {
         english_name: 'Pad Thai',
@@ -506,6 +506,55 @@ let dishes = [
         category: 'chinese',
         date: '2016-03-22',
         image: 'https://i.imgur.com/W6dOLLE.jpg'
+    },
+    {
+        english_name: 'Spicy vermicelli stir-fry',
+        chinese_name: '蚂蚁上树',
+        category: 'chinese',
+        date: '2019-05-30',
+        image: 'https://i.imgur.com/tMImRGz.jpg'
+    },
+    {
+        english_name: 'Braised chicken with chestnuts',
+        chinese_name: '栗子烧鸡',
+        category: 'chinese_comfort',
+        date: '2019-05-29',
+        image: 'https://i.imgur.com/Y6F4G9P.jpg'
+    },
+    {
+        english_name: 'Carrot juice',
+        chinese_name: '胡萝卜汁',
+        category: 'desert',
+        date: '2019-05-30',
+        image: 'https://i.imgur.com/MZwr4Js.jpg'
+    },
+    {
+        english_name: 'Scrambled eggs with chopped cilantro',
+        chinese_name: '美式炒蛋',
+        category: 'american_breakfast',
+        date: '2019-05-30',
+        image: 'https://i.imgur.com/SiWdwrL.jpg'
+    },
+    {
+        english_name: 'Fried Chinese chives pockets',
+        chinese_name: '韭菜盒子',
+        category: 'chinese',
+        date: '2015-03-26',
+        image: 'https://i.imgur.com/ygLeGgq.jpg'
+    },
+    {
+        english_name: 'Fresh spring rolls',
+        chinese_name: '越南春卷',
+        category: 'vietnamese',
+        date: '2016-05-11',
+        image: 'https://i.imgur.com/cSmrB4a.jpg'
+    },
+    {
+        english_name: 'Naan bread',
+        chinese_name: '印度馕',
+        category: 'indian',
+        date: '2018-09-12',
+        image: 'https://i.imgur.com/4sPoL0Q.jpg'
     }
 ];
 
@@ -521,6 +570,10 @@ let categories = {
     'original': {
         english_name: 'Original',
         chinese_name: '原创'
+    },
+    'chinese_comfort': {
+        english_name: 'Chinese Home Food',
+        chinese_name: '中式家常菜'
     },
     'american': {
         english_name: 'American',
@@ -550,9 +603,13 @@ let categories = {
         english_name: 'Japanese',
         chinese_name: '日式'
     },
-    'chinese_comfort': {
-        english_name: 'Chinese Home Food',
-        chinese_name: '中式家常菜'
+    'vietnamese': {
+        english_name: 'Vietnamese',
+        chinese_name: '越南菜'
+    },
+    'indian': {
+        english_name: 'Indian',
+        chinese_name: '印度菜'
     },
     'desert': {
         english_name: 'Drink & Desert',
