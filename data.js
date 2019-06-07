@@ -135,8 +135,8 @@ let dishes = [
         english_name: 'Pan-fried shrimp in mushroom sauce',
         chinese_name: '蘑菇浓汁浇虾',
         category: 'original',
-        date: '2013-08-02',
-        image: 'https://i.imgur.com/vXU7aqi.jpg'
+        date: '2019-06-05',
+        image: 'https://i.imgur.com/ZEaH7Zx.jpg'
     },
     {
         english_name: 'Kimchi',
@@ -555,6 +555,41 @@ let dishes = [
         category: 'indian',
         date: '2018-09-12',
         image: 'https://i.imgur.com/4sPoL0Q.jpg'
+    },
+    {
+        english_name: 'Chinese mother dough bread',
+        chinese_name: '老式面包',
+        category: 'chinese_pastry',
+        date: '2019-06-06',
+        image: 'https://i.imgur.com/wq6ffZZ.jpg'
+    },
+    {
+        english_name: 'Shrimp stir-fry with asparagus',
+        chinese_name: '清炒芦笋虾仁',
+        category: 'chinese_comfort',
+        date: '2019-06-05',
+        image: 'https://i.imgur.com/zX5eshU.jpg'
+    },
+    {
+        english_name: 'Mapo tofu',
+        chinese_name: '麻婆豆腐',
+        category: 'chinese',
+        date: '2019-06-02',
+        image: 'https://i.imgur.com/weYbq7n.jpg'
+    },
+    {
+        english_name: 'Beef stir-fry in black pepper sauce',
+        chinese_name: '黑椒牛柳',
+        category: 'chinese',
+        date: '2019-06-03',
+        image: 'https://i.imgur.com/84CArSL.jpg'
+    },
+    {
+        english_name: 'Egg fried rice with pickled cabbage',
+        chinese_name: '酸菜蛋炒饭',
+        category: 'chinese_comfort',
+        date: '2019-06-04',
+        image: 'https://i.imgur.com/Ge0vf1v.jpg'
     }
 ];
 
