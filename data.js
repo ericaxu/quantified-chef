@@ -581,8 +581,8 @@ let dishes = [
         english_name: 'Beef stir-fry in black pepper sauce',
         chinese_name: '黑椒牛柳',
         category: 'chinese',
-        date: '2019-06-03',
-        image: 'https://i.imgur.com/84CArSL.jpg'
+        date: '2019-06-09',
+        image: 'https://i.imgur.com/YKpxEyS.jpg'
     },
     {
         english_name: 'Egg fried rice with pickled cabbage',
@@ -590,6 +590,34 @@ let dishes = [
         category: 'chinese_comfort',
         date: '2019-06-04',
         image: 'https://i.imgur.com/Ge0vf1v.jpg'
+    },
+    {
+        english_name: 'Baby spinach and fruit salad',
+        chinese_name: '嫩菠菜水果沙拉',
+        category: 'american',
+        date: '2019-06-08',
+        image: 'https://i.imgur.com/dC4cVs4.jpg'
+    },
+    {
+        english_name: 'Dry fried enoki mushrooms with cumin',
+        chinese_name: '烧烤金针菇',
+        category: 'original',
+        date: '2019-06-09',
+        image: 'https://i.imgur.com/gXUH2Tq.jpg'
+    },
+    {
+        english_name: 'Spicy bean jelly salad',
+        chinese_name: '麻辣凉粉',
+        category: 'chinese',
+        date: '2019-06-08',
+        image: 'https://i.imgur.com/A72WmI6.jpg'
+    },
+    {
+        english_name: 'Shrimp stir-fry with broccoli',
+        chinese_name: '清炒西兰花虾仁',
+        category: 'chinese_comfort',
+        date: '2019-06-06',
+        image: 'https://i.imgur.com/BpVzKkh.jpg'
     }
 ];
 
