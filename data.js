@@ -581,8 +581,8 @@ let dishes = [
         english_name: 'Beef stir-fry in black pepper sauce',
         chinese_name: '黑椒牛柳',
         category: 'chinese',
-        date: '2019-06-09',
-        image: 'https://i.imgur.com/YKpxEyS.jpg'
+        date: '2019-06-24',
+        image: 'https://i.imgur.com/kN0joN5.jpg'
     },
     {
         english_name: 'Egg fried rice with pickled cabbage',
@@ -618,6 +618,26 @@ let dishes = [
         category: 'chinese_comfort',
         date: '2019-06-06',
         image: 'https://i.imgur.com/BpVzKkh.jpg'
+    },
+    {
+        english_name: 'Spicy pickle chicken feet',
+        chinese_name: '泡椒凤爪',
+        category: '2019-06-24',
+        image: 'https://i.imgur.com/Zljksbv.jpg',
+        date: '2019-06-25'
+    },
+    {
+        english_name: 'Stir-fry Chinese stem lettuce',
+        chinese_name: '清炒莴笋',
+        category: 'chinese_comfort',
+        date: '2019-06-25',
+        image: 'https://i.imgur.com/2puGFuE.jpg'
+    },
+    {
+        english_name: 'Creamy seafood linguine',
+        chinese_name: '海鲜白酱意面',
+        category: 'italian',
+        image: 'https://images.media-allrecipes.com/userphotos/560x315/3882536.jpg'
     }
 ];
 
@@ -635,7 +655,7 @@ let categories = {
         chinese_name: '原创'
     },
     'chinese_comfort': {
-        english_name: 'Chinese Home Food',
+        english_name: 'Chinese Home Cooking',
         chinese_name: '中式家常菜'
     },
     'american': {
