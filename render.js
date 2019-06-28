@@ -106,6 +106,7 @@ function render_dishes(container_el) {
             if (!dish.date) {
                 dishes_to_make_count += 1;
                 dish_el.className += ' mod-not-completed';
+                create_el('div', dish_el, 'dish-made-date', 'To be made');
             }
             else {
                 dishes_made_count += 1;
