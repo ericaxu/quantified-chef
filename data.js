@@ -638,6 +638,40 @@ let dishes = [
         chinese_name: '海鲜白酱意面',
         category: 'italian',
         image: 'https://images.media-allrecipes.com/userphotos/560x315/3882536.jpg'
+    },
+    {
+        english_name: 'Pork ribs and seaweed soup',
+        chinese_name: '排骨海带汤',
+        category: 'chinese',
+        image: 'https://i.imgur.com/ytbVIGk.jpg',
+        date: '2019-06-25'
+    },
+    {
+        english_name: 'Chiense style chives frittata',
+        chinese_name: '韭菜烘蛋',
+        category: 'chinese_comfort',
+        image: 'https://i.imgur.com/iJNDss0.jpg',
+        date: '2019-06-25'
+    },
+    {
+        english_name: 'Pan-seared belt fish',
+        chinese_name: '香煎带鱼',
+        category: 'chinese_comfort',
+        image: 'https://i.imgur.com/YzWetRp.jpg',
+        date: '2019-06-26'
+    },
+    {
+        english_name: 'Cantonese sausage chow mein',
+        chinese_name: '腊肠炒面',
+        category: 'chinese_comfort',
+        date: '2019-06-27',
+        image: 'https://i.imgur.com/BIWdNrn.jpg'
+    },
+    {
+        english_name: 'Singapore chow mei fun',
+        chinese_name: '美式新加坡炒粉',
+        category: 'american',
+        image: 'https://tastykitchen.com/wp-content/uploads/2014/09/Tasty-Kitchen-Blog-Singapore-Noodles-Singapore-Mei-Fun-19.jpg'
     }
 ];
 
