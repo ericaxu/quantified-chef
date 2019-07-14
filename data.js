@@ -128,8 +128,8 @@ let dishes = [
         english_name: 'Taiwanese fried chicken',
         chinese_name: '盐酥鸡',
         category: 'chinese',
-        date: '2019-04-18',
-        image: 'https://i.imgur.com/iTbB3t2.jpg'
+        date: '2019-07-04',
+        image: 'https://i.imgur.com/YQNhPSt.jpg'
     },
     {
         english_name: 'Pan-fried shrimp in mushroom sauce',
@@ -622,7 +622,7 @@ let dishes = [
     {
         english_name: 'Spicy pickle chicken feet',
         chinese_name: '泡椒凤爪',
-        category: '2019-06-24',
+        category: 'chinese',
         image: 'https://i.imgur.com/Zljksbv.jpg',
         date: '2019-06-25'
     },
@@ -672,6 +672,34 @@ let dishes = [
         chinese_name: '美式新加坡炒粉',
         category: 'american',
         image: 'https://tastykitchen.com/wp-content/uploads/2014/09/Tasty-Kitchen-Blog-Singapore-Noodles-Singapore-Mei-Fun-19.jpg'
+    },
+    {
+        english_name: 'Scrambled eggs with tomatoes',
+        chinese_name: '西红柿炒蛋',
+        category: 'chinese_comfort',
+        date: '2019-06-28',
+        image: 'https://i.imgur.com/yH2lxub.jpg'
+    },
+    {
+        english_name: 'Potato shreds stir-fry with green pepper',
+        chinese_name: '青椒土豆丝',
+        category: 'chinese_comfort',
+        date: '2019-06-28',
+        image: 'hhttps://i.imgur.com/szwPtbv.jpg'
+    },
+    {
+        english_name: 'Citrus sous-vide chicken thighs',
+        chinese_name: '橙柠香煎鸡',
+        category: 'original',
+        date: '2019-07-01',
+        image: 'https://i.imgur.com/Wep741C.jpg'
+    },
+    {
+        english_name: 'Beef stew',
+        chinese_name: '胡萝卜炖牛肉',
+        category: 'American',
+        date: '2019-07-04',
+        image: 'https://i.imgur.com/asys6hG.jpg'
     }
 ];
 
