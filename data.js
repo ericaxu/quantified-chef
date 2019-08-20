@@ -650,7 +650,7 @@ let dishes = [
         english_name: 'Chiense style chives frittata',
         chinese_name: '韭菜烘蛋',
         category: 'chinese_comfort',
-        image: 'https://i.imgur.com/iJNDss0.jpg',
+        image: 'https://i.imgur.com/3go30SG.jpg',
         date: '2019-06-25'
     },
     {
@@ -697,9 +697,27 @@ let dishes = [
     {
         english_name: 'Beef stew',
         chinese_name: '胡萝卜炖牛肉',
-        category: 'American',
+        category: 'american',
         date: '2019-07-04',
         image: 'https://i.imgur.com/asys6hG.jpg'
+    },
+    {
+        english_name: 'Deep-fried tenderloin skewers',
+        chinese_name: '香炸里脊串',
+        category: 'chinese',
+        image: 'https://i.imgur.com/o7Nb2KH.png'
+    },
+    {
+        english_name: 'Deep-fried boiled eggs',
+        chinese_name: '虎皮蛋',
+        category: 'chinese',
+        image: 'https://i.imgur.com/TvIxoG0.png'
+    },
+    {
+        english_name: 'Duck blood soup with vermicelli',
+        chinese_name: '鸭血粉丝汤',
+        category: 'chinese',
+        image: 'https://i.imgur.com/BMUEAD6.png'
     }
 ];
 
