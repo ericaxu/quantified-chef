@@ -685,7 +685,7 @@ let dishes = [
         chinese_name: '青椒土豆丝',
         category: 'chinese_comfort',
         date: '2019-06-28',
-        image: 'hhttps://i.imgur.com/szwPtbv.jpg'
+        image: 'https://i.imgur.com/szwPtbv.jpg'
     },
     {
         english_name: 'Citrus sous-vide chicken thighs',
