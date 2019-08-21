@@ -647,7 +647,7 @@ let dishes = [
         date: '2019-06-25'
     },
     {
-        english_name: 'Chiense style chives frittata',
+        english_name: 'Chinese style chives frittata',
         chinese_name: '韭菜烘蛋',
         category: 'chinese_comfort',
         image: 'https://i.imgur.com/3go30SG.jpg',
