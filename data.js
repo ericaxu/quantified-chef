@@ -718,6 +718,62 @@ let dishes = [
         chinese_name: '鸭血粉丝汤',
         category: 'chinese',
         image: 'https://i.imgur.com/BMUEAD6.png'
+    },
+    {
+        english_name: 'Pan-fried vanilla chicken wings',
+        chinese_name: '盐煎鸡翅',
+        category: 'chinese_comfort',
+        date: '2016-01-01',
+        image: 'https://i.imgur.com/i97E3q5.jpg'
+    },
+    {
+        english_name: 'Lamb skewers',
+        chinese_name: '烤羊肉串',
+        category: 'chinese',
+        date: '2019-07-28',
+        image: 'https://i.imgur.com/y43HJNJ.jpg'
+    },
+    {
+        english_name: 'Spicy enoki mushroom appetizer',
+        chinese_name: '辣拌金针菇',
+        category: 'chinese_comfort',
+        date: '2015-01-15',
+        image: 'https://i.imgur.com/NhXTBHv.jpg'
+    },
+    {
+        english_name: 'Chinese corn beef',
+        chinese_name: '卤牛腱',
+        category: 'chinese',
+        date: '2016-03-21',
+        image: 'https://i.imgur.com/J6q0mGQ.jpg'
+    },
+    {
+        english_name: 'Sweet and sour cabbage',
+        chinese_name: '干锅包菜',
+        category: 'chinese',
+        date: '2018-09-26',
+        image: 'https://i.imgur.com/HImOzrH.jpg'
+    },
+    {
+        english_name: 'Crispy fried pork',
+        chinese_name: '小酥肉',
+        category: 'chinese',
+        date: '2018-09-23',
+        image: 'https://i.imgur.com/g2AiICO.jpg'
+    },
+    {
+        english_name: 'Shaxian style wonton',
+        chinese_name: '扁肉馄饨',
+        category: 'chinese',
+        date: '2018-10-17',
+        image: 'https://i.imgur.com/w8gaJ5I.jpg'
+    },
+    {
+        english_name: 'Cumin chicken with lantern peppers',
+        chinese_name: '灯笼椒香辣孜鸡',
+        category: 'original',
+        date: '2019-01-06',
+        image: 'https://i.imgur.com/kXRNfIw.jpg'
     }
 ];
 
