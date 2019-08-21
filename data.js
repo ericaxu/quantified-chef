@@ -731,7 +731,7 @@ let dishes = [
         chinese_name: '烤羊肉串',
         category: 'chinese',
         date: '2019-07-28',
-        image: 'https://i.imgur.com/y43HJNJ.jpg'
+        image: 'https://i.imgur.com/SxIHrNN.jpg'
     },
     {
         english_name: 'Spicy enoki mushroom salad',
