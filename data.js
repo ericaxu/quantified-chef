@@ -375,14 +375,14 @@ let dishes = [
         image: 'https://i.imgur.com/EUcIyee.jpg'
     },
     {
-        english_name: 'Chicken heart stir-fry with green finger hot ppers',
+        english_name: 'Chicken heart stir-fry with finger hot peppers',
         chinese_name: '青椒炒鸡心',
         category: 'chinese_comfort',
         date: '2019-05-10',
         image: 'https://i.imgur.com/ASvy15g.jpg'
     },
     {
-        english_name: 'Briased pork ribs and North-eastern string beans',
+        english_name: 'Briased pork ribs with Northern string beans',
         chinese_name: '油豆角炖排骨',
         category: 'chinese_comfort',
         date: '2019-04-26',
@@ -459,7 +459,7 @@ let dishes = [
         image: 'https://i.imgur.com/XcclSPD.jpg'
     },
     {
-        english_name: 'Braised snow pear with red date and rock sugar',
+        english_name: 'Braised snow pear with date and rock sugar',
         chinese_name: '红枣冰糖雪梨',
         category: 'desert',
         date: '2016-03-22',
@@ -620,7 +620,7 @@ let dishes = [
         image: 'https://i.imgur.com/BpVzKkh.jpg'
     },
     {
-        english_name: 'Spicy pickle chicken feet',
+        english_name: 'Spicy pickled chicken feet',
         chinese_name: '泡椒凤爪',
         category: 'chinese',
         image: 'https://i.imgur.com/Zljksbv.jpg',
@@ -774,6 +774,62 @@ let dishes = [
         category: 'original',
         date: '2019-01-06',
         image: 'https://i.imgur.com/kXRNfIw.jpg'
+    },
+    {
+        english_name: 'Corn dogs',
+        chinese_name: '玉米狗',
+        category: 'american',
+        date: '2014-07-15',
+        image: 'https://i.imgur.com/N1hCfMa.jpg'
+    },
+    {
+        english_name: 'Corn coriander fritters',
+        chinese_name: '玉米香菜炸饼',
+        category: 'american',
+        date: '2018-10-06',
+        image: 'https://i.imgur.com/9wXeGcN.jpg'
+    },
+    {
+        english_name: 'Scrambled eggs with loofah',
+        chinese_name: '丝瓜炒蛋',
+        category: 'chinese_comfort',
+        date: '2019-04-24',
+        image: 'https://i.imgur.com/LFc5irT.jpg'
+    },
+    {
+        english_name: 'Bak choy submerged in stock with crab sticks',
+        chinese_name: '蟹棒鸡汤浸白菜',
+        category: 'chinese_comfort',
+        date: '2019-04-27',
+        image: 'https://i.imgur.com/ow0Ext3.jpg'
+    },
+    {
+        english_name: 'Olive oil artisan bread',
+        chinese_name: '橄榄油欧包',
+        category: 'western_pastry',
+        date: '2018-09-21',
+        image: 'https://i.imgur.com/AO38o2G.jpg'
+    },
+    {
+        english_name: 'Steamed pork ribs with rice powder',
+        chinese_name: '粉蒸排骨',
+        category: 'chinese',
+        date: '2013-09-28',
+        image: 'https://i.imgur.com/tHSUgEj.jpg'
+    },
+    {
+        english_name: 'Braised golden pomfret',
+        chinese_name: '红烧金鲳鱼',
+        category: 'chinese',
+        date: '2013-09-28',
+        image: 'https://i.imgur.com/G9tCYns.jpg'
+    },
+    {
+        english_name: 'Spicy and savory pan-fried tofu',
+        chinese_name: '家常泡椒豆腐',
+        category: 'chinese_comfort',
+        date: '2018-10-05',
+        image: 'https://i.imgur.com/94pc1WJ.jpg'
     }
 ];
 
