@@ -734,7 +734,7 @@ let dishes = [
         image: 'https://i.imgur.com/y43HJNJ.jpg'
     },
     {
-        english_name: 'Spicy enoki mushroom appetizer',
+        english_name: 'Spicy enoki mushroom salad',
         chinese_name: '辣拌金针菇',
         category: 'chinese_comfort',
         date: '2015-01-15',
