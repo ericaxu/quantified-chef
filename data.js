@@ -669,9 +669,10 @@ let dishes = [
     },
     {
         english_name: 'Singapore chow mei fun',
-        chinese_name: '美式新加坡炒粉',
+        chinese_name: '星洲炒米粉',
         category: 'american',
-        image: 'https://tastykitchen.com/wp-content/uploads/2014/09/Tasty-Kitchen-Blog-Singapore-Noodles-Singapore-Mei-Fun-19.jpg'
+        date: '2019-08-25',
+        image: 'https://i.imgur.com/wwgV6tG.jpg'
     },
     {
         english_name: 'Scrambled eggs with tomatoes',
@@ -830,6 +831,41 @@ let dishes = [
         category: 'chinese_comfort',
         date: '2018-10-05',
         image: 'https://i.imgur.com/94pc1WJ.jpg'
+    },
+    {
+        english_name: 'Nanjig salted duck',
+        chinese_name: '盐水鸭',
+        category: 'chinese',
+        date: '2013-10-18',
+        image: 'https://i.imgur.com/7WG7Y6x.jpg'
+    },
+    {
+        english_name: 'Honeydew milktea with lychee jelly',
+        chinese_name: '哈密瓜奶茶加荔枝椰果',
+        category: 'desert',
+        date: '2018-08-22',
+        image: 'https://i.imgur.com/tm28tm2.jpg'
+    },
+    {
+        english_name: 'Mango flower chiffon cake',
+        chinese_name: '芒果花戚风奶油蛋糕',
+        category: 'western_pastry',
+        date: '2018-08-22',
+        image: 'https://i.imgur.com/HlQ46e3.jpg'
+    },
+    {
+        english_name: 'Chives egg crêpe',
+        chinese_name: '韭菜薄蛋饼',
+        category: 'chinese_comfort',
+        date: '2016-03-21',
+        image: 'https://i.imgur.com/VasG7qu.jpg'
+    },
+    {
+        english_name: 'Hand-ripped noodle seared with spicy oil',
+        chinese_name: '油泼扯面',
+        category: 'chinese',
+        date: '2017-07-09',
+        image: 'https://i.imgur.com/xOuLTRe.jpg'
     }
 ];
 
