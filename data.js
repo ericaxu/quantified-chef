@@ -866,6 +866,20 @@ let dishes = [
         category: 'chinese',
         date: '2017-07-09',
         image: 'https://i.imgur.com/xOuLTRe.jpg'
+    },
+    {
+        english_name: 'Strawberry banana smoothie',
+        chinese_name: '草莓香蕉冰沙',
+        category: 'desert',
+        date: '2019-09-19',
+        image: 'https://i.imgur.com/cN4PvNz.jpg'
+    },
+    {
+        english_name: 'Cantonese chow mein',
+        chinese_name: '广式酱油炒面',
+        category: 'chinese_comfort',
+        date: '2019-09-21',
+        image: 'https://i.imgur.com/1BU3zZN.jpg'
     }
 ];
 
