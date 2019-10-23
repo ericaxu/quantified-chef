@@ -794,8 +794,8 @@ let dishes = [
         english_name: 'Scrambled eggs with loofah',
         chinese_name: '丝瓜炒蛋',
         category: 'chinese_comfort',
-        date: '2019-04-24',
-        image: 'https://i.imgur.com/LFc5irT.jpg'
+        date: '2019-09-25',
+        image: 'https://i.imgur.com/RNC8QuW.jpg'
     },
     {
         english_name: 'Bak choy submerged in stock with crab sticks',
@@ -880,6 +880,41 @@ let dishes = [
         category: 'chinese_comfort',
         date: '2019-09-21',
         image: 'https://i.imgur.com/1BU3zZN.jpg'
+    },
+    {
+        english_name: 'Mango pineapple smoothie',
+        chinese_name: '芒果菠萝冰沙',
+        category: 'desert',
+        date: '2019-09-27',
+        image: 'https://i.imgur.com/dRPovbh.jpg'
+    },
+    {
+        english_name: 'Coconut pineapple smoothie',
+        chinese_name: '菠萝椰奶冰沙',
+        category: 'desert',
+        date: '2019-09-27',
+        image: 'https://i.imgur.com/8ZEpWuT.jpg'
+    },
+    {
+        english_name: 'Pea sprouts in chicken soup',
+        chinese_name: '上汤豆苗',
+        category: 'chinese',
+        date: '2019-10-09',
+        image: 'https://i.imgur.com/lEgHJYm.jpg'
+    },
+    {
+        english_name: 'Bean sprouts and vermicelli stir-fry',
+        chinese_name: '豆芽小炒粉丝',
+        category: 'chinese_comfort',
+        date: '2019-10-07',
+        image: 'https://i.imgur.com/GSc7Zrk.jpg'
+    },
+    {
+        english_name: 'Noodles in hot sauce',
+        chinese_name: '香辣面',
+        category: 'chinese',
+        date: '2019-10-22',
+        image: 'https://i.imgur.com/MDMPBm0.jpg'
     }
 ];
 
