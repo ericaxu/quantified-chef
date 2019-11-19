@@ -468,7 +468,7 @@ let dishes = [
     {
         english_name: 'Tofu curd with savory toppings',
         chinese_name: '豆腐脑',
-        category: 'chinese',
+        category: 'chinese_breakfast',
         date: '2019-05-21',
         image: 'https://i.imgur.com/6GSirck.jpg'
     },
@@ -765,7 +765,7 @@ let dishes = [
     {
         english_name: 'Shaxian style wonton',
         chinese_name: '扁肉馄饨',
-        category: 'chinese',
+        category: 'chinese_breakfast',
         date: '2018-10-17',
         image: 'https://i.imgur.com/w8gaJ5I.jpg'
     },
@@ -856,7 +856,7 @@ let dishes = [
     {
         english_name: 'Chives egg crêpe',
         chinese_name: '韭菜薄蛋饼',
-        category: 'chinese_comfort',
+        category: 'chinese_breakfast',
         date: '2016-03-21',
         image: 'https://i.imgur.com/VasG7qu.jpg'
     },
@@ -915,6 +915,34 @@ let dishes = [
         category: 'chinese',
         date: '2019-10-22',
         image: 'https://i.imgur.com/MDMPBm0.jpg'
+    },
+    {
+        english_name: 'Pan-fried pork chops',
+        chinese_name: '薄煎猪排',
+        category: 'chinese_comfort',
+        date: '2019-11-02',
+        image: 'https://i.imgur.com/9NrsZgN.jpg'
+    },
+    {
+        english_name: 'Fried bananas',
+        chinese_name: '炸香蕉',
+        category: 'chinese_comfort',
+        date: '2019-11-16',
+        image: 'https://i.imgur.com/sMQUeej.jpg'
+    },
+    {
+        english_name: 'Chinese green onion egg crêpe',
+        chinese_name: '鸡蛋香葱煎饼',
+        category: 'chinese_breakfast',
+        date: '2019-11-04',
+        image: 'https://i.imgur.com/fR5Y0Ao.jpg'
+    },
+    {
+        english_name: 'Yangchun noodles',
+        chinese_name: '阳春面',
+        category: 'chinese_breakfast',
+        date: '2019-10-27',
+        image: 'https://i.imgur.com/RbYk0vL.jpg'
     }
 ];
 
@@ -942,6 +970,10 @@ let categories = {
     'american_breakfast': {
         english_name: 'Amercian Breakfast',
         chinese_name: '美式早餐'
+    },
+    'chinese_breakfast': {
+        english_name: 'Chinese Breakfast',
+        chinese_name: '中式早餐'
     },
     'italian': {
         english_name: 'Italian',
