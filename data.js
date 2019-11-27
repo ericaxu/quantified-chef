@@ -232,7 +232,7 @@ let dishes = [
     {
         english_name: 'Nikuman',
         chinese_name: '肉包',
-        category: 'chinese',
+        category: 'chinese_breakfast',
         date: '2016-01-27',
         image: 'https://i.imgur.com/dA3G6F2.jpg'
     },
@@ -587,7 +587,7 @@ let dishes = [
     {
         english_name: 'Egg fried rice with pickled cabbage',
         chinese_name: '酸菜蛋炒饭',
-        category: 'chinese_comfort',
+        category: 'chinese_breakfast',
         date: '2019-06-04',
         image: 'https://i.imgur.com/Ge0vf1v.jpg'
     },
@@ -649,7 +649,7 @@ let dishes = [
     {
         english_name: 'Chinese style chives frittata',
         chinese_name: '韭菜烘蛋',
-        category: 'chinese_comfort',
+        category: 'chinese_breakfast',
         image: 'https://i.imgur.com/3go30SG.jpg',
         date: '2019-06-25'
     },
@@ -759,8 +759,8 @@ let dishes = [
         english_name: 'Crispy fried pork',
         chinese_name: '小酥肉',
         category: 'chinese',
-        date: '2018-09-23',
-        image: 'https://i.imgur.com/g2AiICO.jpg'
+        date: '2019-11-22',
+        image: 'https://i.imgur.com/4iocZqZ.jpg'
     },
     {
         english_name: 'Shaxian style wonton',
@@ -942,7 +942,35 @@ let dishes = [
         chinese_name: '阳春面',
         category: 'chinese_breakfast',
         date: '2019-10-27',
-        image: 'https://i.imgur.com/RbYk0vL.jpg'
+        image: 'https://i.imgur.com/dbVv0S2.jpg'
+    },
+    {
+        english_name: 'Congee with pork and preserved eggs',
+        chinese_name: '皮蛋瘦肉粥',
+        category: 'chinese_breakfast',
+        date: '2013-02-19',
+        image: 'https://i.imgur.com/x59s2YK.jpg'
+    },
+    {
+        english_name: 'Chicken stir-fry with green pepper and cumin',
+        chinese_name: '青椒孜然鸡',
+        category: 'chinese_comfort',
+        date: '2019-11-20',
+        image: 'https://i.imgur.com/5nmNcrB.jpg'
+    },
+    {
+        english_name: 'Daylily and egg stir-fry',
+        chinese_name: '黄花菜炒蛋',
+        category: 'chinese_breakfast',
+        date: '2019-11-23',
+        image: 'https://i.imgur.com/MajRWWC.jpg'
+    }
+    {
+        english_name: 'Sliced beef and enoki mushroom sour and spicy soup',
+        chinese_name: '酸汤肥牛',
+        category: 'chinese',
+        date: '2019-11-23',
+        image: 'https://i.imgur.com/XOTaLdL.jpg'
     }
 ];
 
@@ -963,6 +991,10 @@ let categories = {
         english_name: 'Chinese Home Cooking',
         chinese_name: '中式家常菜'
     },
+    'chinese_breakfast': {
+        english_name: 'Chinese Breakfast',
+        chinese_name: '中式早餐'
+    },
     'american': {
         english_name: 'American',
         chinese_name: '美式'
@@ -970,10 +1002,6 @@ let categories = {
     'american_breakfast': {
         english_name: 'Amercian Breakfast',
         chinese_name: '美式早餐'
-    },
-    'chinese_breakfast': {
-        english_name: 'Chinese Breakfast',
-        chinese_name: '中式早餐'
     },
     'italian': {
         english_name: 'Italian',
