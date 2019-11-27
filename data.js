@@ -964,7 +964,7 @@ let dishes = [
         category: 'chinese_breakfast',
         date: '2019-11-23',
         image: 'https://i.imgur.com/MajRWWC.jpg'
-    }
+    },
     {
         english_name: 'Sliced beef and enoki mushroom sour and spicy soup',
         chinese_name: '酸汤肥牛',
