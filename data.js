@@ -971,7 +971,56 @@ let dishes = [
         category: 'chinese',
         date: '2019-11-23',
         image: 'https://i.imgur.com/XOTaLdL.jpg'
-    }
+    },
+    {
+        english_name: 'Fried mantou with condensed milk',
+        chinese_name: '炼乳炸馒头',
+        category: 'chinese',
+        date: '2020-02-27',
+        image: 'https://i.imgur.com/o3ACloS.jpg'
+    },
+    {
+        english_name: 'Sweet and sour pork ribs',
+        chinese_name: '糖醋排骨',
+        category: 'chinese',
+        date: '2020-01-06',
+        image: 'https://i.imgur.com/gOQBpZz.jpg'
+    },
+    {
+        english_name: 'Homemade mango sauce',
+        chinese_name: '自制芒果酱',
+        category: 'desert',
+        date: '2020-01-11',
+        image: 'https://i.imgur.com/MeTr937.jpg'
+    },
+    {
+        english_name: 'Steamed asparagus in garlicky soy sauce',
+        chinese_name: '蒜香蒸芦笋',
+        category: 'chinese_comfort',
+        date: '2020-01-20',
+        image: 'https://i.imgur.com/HMYF8kx.jpg'
+    },
+    {
+        english_name: 'Shanghai bok choy stir-fry with shiitake mushrooms',
+        chinese_name: '香菇炒青菜',
+        category: 'chinese_comfort',
+        date: '2020-01-08',
+        image: 'https://i.imgur.com/vxPJBQG.jpg'
+    },
+    {
+        english_name: 'Nanjing style rice balls with Adzuki beans',
+        chinese_name: '金陵式桂花红豆元宵',
+        category: 'desert',
+        date: '2020-02-09',
+        image: 'https://i.imgur.com/rKPlOBN.jpg'
+    },
+    {
+        english_name: 'Key lime cheesecake',
+        chinese_name: '青柠重芝士蛋糕',
+        category: 'western_pastry',
+        date: '2020-02-14',
+        image: 'https://i.imgur.com/2b07Rqg.jpg'
+    },
 ];
 
 let categories = {
