@@ -977,7 +977,7 @@ let dishes = [
         chinese_name: '炼乳炸馒头',
         category: 'chinese',
         date: '2020-02-27',
-        image: 'https://i.imgur.com/o3ACloS.jpg'
+        image: 'https://i.imgur.com/rKhbuRq.jpg'
     },
     {
         english_name: 'Sweet and sour pork ribs',
