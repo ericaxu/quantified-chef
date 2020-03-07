@@ -606,8 +606,8 @@ let dishes = [
         image: 'https://i.imgur.com/gXUH2Tq.jpg'
     },
     {
-        english_name: 'Spicy bean jelly salad',
-        chinese_name: '麻辣凉粉',
+        english_name: 'Spicy homemade bean jelly salad',
+        chinese_name: '麻辣自制凉粉',
         category: 'chinese',
         date: '2019-06-08',
         image: 'https://i.imgur.com/A72WmI6.jpg'
@@ -872,7 +872,7 @@ let dishes = [
         chinese_name: '草莓香蕉冰沙',
         category: 'desert',
         date: '2019-09-19',
-        image: 'https://i.imgur.com/cN4PvNz.jpg'
+        image: 'https://i.imgur.com/K9UjNh8.jpg'
     },
     {
         english_name: 'Cantonese chow mein',
@@ -1021,6 +1021,83 @@ let dishes = [
         date: '2020-02-14',
         image: 'https://i.imgur.com/2b07Rqg.jpg'
     },
+    {
+        english_name: 'Red bean paste buns',
+        chinese_name: '豆沙包',
+        category: 'chinese_pastry',
+        date: '2020-02-25',
+        image: 'https://i.imgur.com/TgD4I7W.jpg'
+    },
+    {
+        english_name: 'Mango maki rolls',
+        chinese_name: '芒果酱太卷',
+        category: 'japanese',
+        date: '2020-01-08',
+        image: 'https://i.imgur.com/tqYXIej.jpg'
+    },
+    {
+        english_name: 'Tofu stew with shiitake mushroom bits',
+        chinese_name: '香菇豆腐羹',
+        category: 'original',
+        date: '2020/02/21',
+        image: 'https://i.imgur.com/2kW0MXr.jpg'
+    },
+    {
+        english_name: 'Christmas fruit chiffon cake',
+        chinese_name: '圣诞戚风蛋糕',
+        category: 'western_pastry',
+        date: '2019/12/25',
+        image: 'https://i.imgur.com/YT4cjDR.jpg'
+    },
+    {
+        english_name: 'Yuba and pea shoot soup',
+        chinese_name: '腐竹粉丝浸豆苗',
+        category: 'chinese_comfort',
+        date: '2020/02/23',
+        image: 'https://i.imgur.com/IpPk1Ix.jpg'
+    },
+    {
+        english_name: 'BBQ flavored chicken stir-fry with long hot',
+        chinese_name: '尖椒烧烤味鸡丁',
+        category: 'original',
+        date: '2020/03/06',
+        image: 'https://i.imgur.com/Xy9G9K9.jpg'
+    },
+    {
+        english_name: 'Spinach in garlicky oyster sauce',
+        chinese_name: '金银蒜蚝汁菠菜',
+        category: 'chinese',
+        date: '2020/03/06',
+        image: 'https://i.imgur.com/OKibAAF.jpg'
+    },
+    {
+        english_name: 'Eggplant in chili bean sauce',
+        chinese_name: '家常茄子',
+        category: 'chinese',
+        date: '2020/03/06',
+        image: 'https://i.imgur.com/kj8DdmJ.jpg'
+    },
+    {
+        english_name: 'Black pepper beef stir-fry with shimeji mushrooms',
+        chinese_name: '蟹味菇黑椒牛柳',
+        category: 'chinese',
+        date: '2020/01/21',
+        image: 'https://i.imgur.com/0bwINva.jpg'
+    },
+    {
+        english_name: 'Duck braised in beer',
+        chinese_name: '啤酒鸭',
+        category: 'chinese',
+        date: '2020/01/08',
+        image: 'https://i.imgur.com/fJXanP6.jpg'
+    },
+    {
+        english_name: 'Deep fried salmon with cranberry and walnut sauce',
+        chinese_name: '炸三文鱼佐核桃蔓越莓酱',
+        category: 'original',
+        date: '2019/12/28',
+        image: 'https://i.imgur.com/q98XWRi.jpg'
+    }
 ];
 
 let categories = {
