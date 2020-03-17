@@ -1097,6 +1097,62 @@ let dishes = [
         category: 'original',
         date: '2019/12/28',
         image: 'https://i.imgur.com/q98XWRi.jpg'
+    },
+    {
+        english_name: 'Fried shrimp with soft scrambled eggs',
+        chinese_name: '虾仁滑蛋',
+        category: 'chinese',
+        date: '2019/12/29',
+        image: 'https://i.imgur.com/aoTubkR.jpg'
+    },
+    {
+        english_name: 'Shrimp braised in edamame sauce',
+        chinese_name: '毛豆榨菜虾仁',
+        category: 'chinese_comfort',
+        date: '2020/02/24',
+        image: 'https://i.imgur.com/wBOUT8H.jpg'
+    },
+    {
+        english_name: 'Homemade noodles in tomato and egg soup',
+        chinese_name: '清香西红柿鸡蛋面',
+        category: 'chinese_comfort',
+        date: '2020/01/27',
+        image: 'https://i.imgur.com/uKKkSXx.jpg'
+    },
+    {
+        english_name: 'Seafood stir-fry with snow peas',
+        chinese_name: '扇贝虾仁炒荷兰豆',
+        category: 'chinese_comfort',
+        date: '2020/01/12',
+        image: 'https://i.imgur.com/2U243SU.jpg'
+    },
+    {
+        english_name: 'Tofu sheet strips with fresh hot pepper',
+        chinese_name: '尖椒干豆腐丝',
+        category: 'chinese_comfort',
+        date: '2020/02/11',
+        image: 'https://i.imgur.com/it97dQm.jpg'
+    },
+    {
+        english_name: 'Braised sea bass',
+        chinese_name: '红烧海鲈鱼',
+        category: 'chinese',
+        date: '2020/01/04',
+        image: 'https://i.imgur.com/fFh4i9i.jpg'
+    },
+    {
+        english_name: 'Braised bone-in chicken thigh',
+        chinese_name: '红烧带骨鸡块',
+        category: 'chinese',
+        date: '2019/11/27',
+        image: 'https://i.imgur.com/UbdsJnH.jpg'
+    },
+    {
+        english_name: 'Southern plain bun',
+        chinese_name: '南方小馒头',
+        category: 'chinese',
+        date: '2020/02/25',
+        image: 'https://i.imgur.com/DYEGQ6V.jpg'
     }
 ];
 
