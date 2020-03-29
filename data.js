@@ -1153,6 +1153,55 @@ let dishes = [
         category: 'chinese',
         date: '2020/02/25',
         image: 'https://i.imgur.com/DYEGQ6V.jpg'
+    },
+    {
+        english_name: 'Pork rib and corn soup',
+        chinese_name: '玉米排骨汤',
+        category: 'chinese',
+        date: '2020/03/14',
+        image: 'https://i.imgur.com/DvuzWX0.jpg'
+    },
+    {
+        english_name: 'Mango yogurt parfait',
+        chinese_name: '芒果酸奶芭菲',
+        category: 'desert',
+        date: '2020/03/18',
+        image: 'https://i.imgur.com/JlbtJlX.jpg'
+    },
+    {
+        english_name: 'Braised pork neck bones',
+        chinese_name: '酱猪颈骨',
+        category: 'chinese',
+        date: '2020/03/25',
+        image: 'https://i.imgur.com/g6YJ7qz.jpg'
+    },
+    {
+        english_name: 'Fried meatballs',
+        chinese_name: '炸肉丸',
+        category: 'chinese',
+        date: '2020/03/15',
+        image: 'https://i.imgur.com/pIkJc4K.jpg'
+    },
+    {
+        english_name: 'Braised wintermelon with minced pork',
+        chinese_name: '肉末炖冬瓜',
+        category: 'chinese_comfort',
+        date: '2020/03/08',
+        image: 'https://i.imgur.com/liCqcqJ.jpg'
+    },
+    {
+        english_name: 'Garlic hua juan',
+        chinese_name: '葱香花卷',
+        category: 'chinese',
+        date: '2020/03/23',
+        image: 'https://i.imgur.com/dtUoHOk.jpg'
+    },
+    {
+        english_name: 'Clam and vermicelli in garlicky soup',
+        chinese_name: '蒜香粉丝花甲',
+        category: 'chinese',
+        date: '2020/03/27',
+        image: 'https://i.imgur.com/geBXqzz.jpg'
     }
 ];
 
