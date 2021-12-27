@@ -539,8 +539,8 @@ let dishes = [
         english_name: 'Fried Chinese chives pockets',
         chinese_name: '韭菜盒子',
         category: 'chinese',
-        date: '2015-03-26',
-        image: 'https://i.imgur.com/ygLeGgq.jpg'
+        date: '2021-12-23',
+        image: 'https://i.imgur.com/d7D972s.jpg'
     },
     {
         english_name: 'Fresh spring rolls',
@@ -1202,6 +1202,76 @@ let dishes = [
         category: 'chinese',
         date: '2020/03/27',
         image: 'https://i.imgur.com/geBXqzz.jpg'
+    },
+    {
+        english_name: 'New Orleans style barbecue wings',
+        chinese_name: '新奥尔良烤翅',
+        category: 'chinese',
+        date: '2021/05/03',
+        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+    },
+    {
+        english_name: 'Barbeque chicken hearts',
+        chinese_name: '烧烤风味鸡心',
+        category: 'chinese',
+        date: '2021/05/15',
+        image: 'https://i.imgur.com/HbywQyB.jpg'
+    },
+    {
+        english_name: 'New Orleans Style Barbecue Chicken Wings',
+        chinese_name: '新奥尔良烤翅',
+        category: 'chinese',
+        date: '2021/05/03',
+        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+    },
+    {
+        english_name: 'New Orleans Style Barbecue Chicken Wings',
+        chinese_name: '新奥尔良烤翅',
+        category: 'chinese',
+        date: '2021/05/03',
+        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+    },
+    {
+        english_name: 'New Orleans Style Barbecue Chicken Wings',
+        chinese_name: '新奥尔良烤翅',
+        category: 'chinese',
+        date: '2021/05/03',
+        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+    },
+    {
+        english_name: 'New Orleans Style Barbecue Chicken Wings',
+        chinese_name: '新奥尔良烤翅',
+        category: 'chinese',
+        date: '2021/05/03',
+        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+    },
+    {
+        english_name: 'New Orleans Style Barbecue Chicken Wings',
+        chinese_name: '新奥尔良烤翅',
+        category: 'chinese',
+        date: '2021/05/03',
+        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+    },
+    {
+        english_name: 'New Orleans Style Barbecue Chicken Wings',
+        chinese_name: '新奥尔良烤翅',
+        category: 'chinese',
+        date: '2021/05/03',
+        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+    },
+    {
+        english_name: 'New Orleans Style Barbecue Chicken Wings',
+        chinese_name: '新奥尔良烤翅',
+        category: 'chinese',
+        date: '2021/05/03',
+        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+    },
+    {
+        english_name: 'New Orleans Style Barbecue Chicken Wings',
+        chinese_name: '新奥尔良烤翅',
+        category: 'chinese',
+        date: '2021/05/03',
+        image: 'https://i.imgur.com/Db0Wo6k.jpg'
     }
 ];
 
