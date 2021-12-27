@@ -336,12 +336,6 @@ let dishes = [
         image: 'https://i.imgur.com/hGYrxTh.jpg'
     },
     {
-        english_name: 'Apple pie',
-        chinese_name: '苹果派',
-        category: 'western_pastry',
-        image: 'https://images-gmi-pmc.edge-generalmills.com/173da066-c6b4-45dd-9b28-0d459cf6f169.jpg'
-    },
-    {
         english_name: 'Pad Thai',
         chinese_name: '泰式炒河粉',
         category: 'thai',
