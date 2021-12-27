@@ -145,7 +145,7 @@ function render_dishes(container_el) {
 
     document.querySelector('.last-updated-date').textContent = moment(last_updated_ts).format('Y/M/D');
     document.querySelector('.completed-dishes-num').textContent = dishes_made_count;
-    document.querySelector('.dishes-to-make-num').textContent = dishes_to_make_count;
+    // document.querySelector('.dishes-to-make-num').textContent = dishes_to_make_count;
     document.querySelector('.progress-percent').textContent = ((dishes_made_count / 1000) * 100).toFixed(1).toString() + '%';
 
 }
