@@ -348,12 +348,6 @@ let dishes = [
         image: 'https://images-gmi-pmc.edge-generalmills.com/173da066-c6b4-45dd-9b28-0d459cf6f169.jpg'
     },
     {
-        english_name: 'Key lime pie',
-        chinese_name: '美式柠檬派',
-        category: 'western_pastry',
-        image: 'https://timeincsecure-a.akamaihd.net/rtmp_uds/474428695/201605/1787/474428695_4874820931001_4870893853001-vs.jpg'
-    },
-    {
         english_name: 'Pad Thai',
         chinese_name: '泰式炒河粉',
         category: 'thai',
@@ -713,12 +707,6 @@ let dishes = [
         chinese_name: '虎皮蛋',
         category: 'chinese',
         image: 'https://i.imgur.com/TvIxoG0.png'
-    },
-    {
-        english_name: 'Duck blood soup with vermicelli',
-        chinese_name: '鸭血粉丝汤',
-        category: 'chinese',
-        image: 'https://i.imgur.com/BMUEAD6.png'
     },
     {
         english_name: 'Pan-fried vanilla chicken wings',
