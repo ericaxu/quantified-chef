@@ -21,12 +21,6 @@ let dishes = [
         image: 'https://i.imgur.com/pLiXta1.jpg'
     },
     {
-        english_name: 'Blueberry pancake',
-        chinese_name: '蓝莓松饼',
-        category: 'american_breakfast',
-        image: 'https://images.media-allrecipes.com/userphotos/250x250/686460.jpg'
-    },
-    {
         english_name: 'Green chicken and corn curry',
         chinese_name: '玉米鸡肉绿咖喱',
         category: 'thai',
@@ -628,12 +622,6 @@ let dishes = [
         image: 'https://i.imgur.com/2puGFuE.jpg'
     },
     {
-        english_name: 'Creamy seafood linguine',
-        chinese_name: '海鲜白酱意面',
-        category: 'italian',
-        image: 'https://images.media-allrecipes.com/userphotos/560x315/3882536.jpg'
-    },
-    {
         english_name: 'Pork ribs and seaweed soup',
         chinese_name: '排骨海带汤',
         category: 'chinese',
@@ -695,18 +683,6 @@ let dishes = [
         category: 'american',
         date: '2019-07-04',
         image: 'https://i.imgur.com/asys6hG.jpg'
-    },
-    {
-        english_name: 'Deep-fried tenderloin skewers',
-        chinese_name: '香炸里脊串',
-        category: 'chinese',
-        image: 'https://i.imgur.com/o7Nb2KH.png'
-    },
-    {
-        english_name: 'Deep-fried boiled eggs',
-        chinese_name: '虎皮蛋',
-        category: 'chinese',
-        image: 'https://i.imgur.com/TvIxoG0.png'
     },
     {
         english_name: 'Pan-fried vanilla chicken wings',
