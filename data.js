@@ -1218,60 +1218,32 @@ let dishes = [
         image: 'https://i.imgur.com/HbywQyB.jpg'
     },
     {
-        english_name: 'New Orleans Style Barbecue Chicken Wings',
-        chinese_name: '新奥尔良烤翅',
-        category: 'chinese',
-        date: '2021/05/03',
-        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+        english_name: 'Mojito',
+        chinese_name: '莫吉托',
+        category: 'desert',
+        date: '2021/12/23',
+        image: 'https://i.imgur.com/sLFnUku.jpg'
     },
     {
-        english_name: 'New Orleans Style Barbecue Chicken Wings',
-        chinese_name: '新奥尔良烤翅',
+        english_name: 'Braised prawns with brown sauce',
+        chinese_name: '油闷大虾',
         category: 'chinese',
-        date: '2021/05/03',
-        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+        date: '2021/12/26',
+        image: 'https://i.imgur.com/GxW51UC.jpg'
     },
     {
-        english_name: 'New Orleans Style Barbecue Chicken Wings',
-        chinese_name: '新奥尔良烤翅',
+        english_name: 'Roasted cauliflower',
+        chinese_name: '香烤花菜',
         category: 'chinese',
-        date: '2021/05/03',
-        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+        date: '2021/04/04',
+        image: 'https://i.imgur.com/JL1SV2S.jpg'
     },
     {
-        english_name: 'New Orleans Style Barbecue Chicken Wings',
-        chinese_name: '新奥尔良烤翅',
-        category: 'chinese',
-        date: '2021/05/03',
-        image: 'https://i.imgur.com/Db0Wo6k.jpg'
-    },
-    {
-        english_name: 'New Orleans Style Barbecue Chicken Wings',
-        chinese_name: '新奥尔良烤翅',
-        category: 'chinese',
-        date: '2021/05/03',
-        image: 'https://i.imgur.com/Db0Wo6k.jpg'
-    },
-    {
-        english_name: 'New Orleans Style Barbecue Chicken Wings',
-        chinese_name: '新奥尔良烤翅',
-        category: 'chinese',
-        date: '2021/05/03',
-        image: 'https://i.imgur.com/Db0Wo6k.jpg'
-    },
-    {
-        english_name: 'New Orleans Style Barbecue Chicken Wings',
-        chinese_name: '新奥尔良烤翅',
-        category: 'chinese',
-        date: '2021/05/03',
-        image: 'https://i.imgur.com/Db0Wo6k.jpg'
-    },
-    {
-        english_name: 'New Orleans Style Barbecue Chicken Wings',
-        chinese_name: '新奥尔良烤翅',
-        category: 'chinese',
-        date: '2021/05/03',
-        image: 'https://i.imgur.com/Db0Wo6k.jpg'
+        english_name: 'Spicy tofu soup',
+        chinese_name: '韩式豆腐汤',
+        category: 'korean',
+        date: '2021/04/24',
+        image: 'https://i.imgur.com/nJNtuU0.jpg'
     }
 ];
 
