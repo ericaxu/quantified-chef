@@ -1184,7 +1184,7 @@ let dishes = [
     },
     {
         english_name: 'Braised prawns with brown sauce',
-        chinese_name: '油闷大虾',
+        chinese_name: '油焖大虾',
         category: 'chinese',
         date: '2021/12/26',
         image: 'https://i.imgur.com/GxW51UC.jpg'
